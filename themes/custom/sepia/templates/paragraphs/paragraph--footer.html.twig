@@ -1,0 +1,24 @@
+<section id="footer" class="{% if paragraph.field_dark.value =='1' %}footer-dark{% endif %} no-margin-top">
+	<div class="footer-inner">
+		<div class="footer-container tt-wrap pb-40">
+			<div class="row">
+			{% if content.field_left|render %}
+			<div class="col-md-3">
+            {{ content.field_left }}
+            </div>
+            {% endif %}
+            
+            {% if content.field_text|render %}
+			<div class="col-md-5">
+            {{ content.field_text }}
+            </div>
+            {% endif %}
+			 {% if content.field_f_text|render %}
+			<div class="col-md-4">
+            {{ content.field_f_text }}
+            </div>
+            {% endif %}
+	        </div>
+	    </div>
+	</div>
+</section>

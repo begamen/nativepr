@@ -1,0 +1,16 @@
+formatter:
+  js:
+    js/baguettebox.js: {}
+  dependencies:
+    - baguettebox/baguettebox
+baguettebox:
+  remote: https://github.com/feimosi/baguetteBox.js
+  version: 1.11.0
+  license:
+    name: MIT
+    gpl-compatible: true
+  js:
+    /libraries/baguettebox/baguetteBox.min.js: {}
+  css:
+    component:
+      /libraries/baguettebox/baguetteBox.min.css: {}

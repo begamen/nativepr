@@ -1,0 +1,31 @@
+<div class="price-box {% if paragraph.field_featured.value =='1' %}price-box-featured{% endif %}">
+<div class="pr-box price-heading bg-image" style="background-image: url({{file_url(content.field_price_box_image[ '#items'].entity.uri.value)}});">
+	<div class="price-heading-inner">
+{% if content.field_pb_icon|render %}<i class="{{ paragraph.field_pb_icon.value }}"></i>{% endif %}
+{% if content.field_pb_title|render %}<h3 class="price-title">{{ content.field_pb_title }}</h3>{% endif %}
+{% if content.field_pb_subtitle|render %}<div class="price-heading-text">{{ content.field_pb_subtitle }}</div>{% endif %}
+   </div>
+</div>
+	<div class="pr-box price-box-price">
+		<div class="price"><span class="price-currency">{% if content.field_price_currency|render %}{{ paragraph.field_price_currency.value }}{% endif %}</span>{% if content.field_price|render %}{{ paragraph.field_price.value }}{% endif %}</div>
+					
+	</div>
+	{% if content.field_price_features|render %}
+	<div class="pr-box price-features">
+		{{ content.field_price_features }}
+	</div>
+     {% endif %}   
+     {% if content.field_pb_link1|render or content.field_pb_link2|render %}                        
+		<div class="pr-box">
+		{% if content.field_pb_link1|render %}
+		{{ content.field_pb_link1 }}
+		{% endif %}
+		{% if content.field_pb_link2|render %}
+		{{ content.field_pb_link2 }}
+		{% endif %}
+		</div>
+	{% endif %}
+</div>		
+		
+		
+	

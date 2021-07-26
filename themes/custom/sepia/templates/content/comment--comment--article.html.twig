@@ -1,0 +1,35 @@
+{%
+  set classes = [
+    'comment',
+    'js-comment',
+    status != 'published' ? status,
+    comment.owner.anonymous ? 'by-anonymous',
+    author_id and author_id == commented_entity.getOwnerId() ? 'by-' ~ commented_entity.getEntityTypeId() ~ '-author',
+  ]
+%}
+
+  <mark class="hidden" data-comment-timestamp="{{ new_indicator_timestamp }}"></mark>
+  <li class="media">
+    {{ user_picture }}
+    <div class="media-body">
+    {% if title %}
+      {{ title_prefix }}
+      <h4 class="media-heading"{{ title_attributes }}>{{ title }}</h4>
+      {{ title_suffix }}
+    {% endif %}
+    <span class="article-time pull-left">{{ submitted }}</span>
+
+    {% if parent %}
+      <p class="parent visually-hidden">{{ parent }}</p>
+    {% endif %}
+ 
+ 
+
+  <div{{ content_attributes.addClass('content') }}>
+    
+    <p class="media-text">
+    {{ content }}
+    </p>
+  </div>
+  </div>
+   </li>

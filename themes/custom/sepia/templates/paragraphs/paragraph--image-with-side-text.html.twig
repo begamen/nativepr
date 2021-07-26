@@ -1,0 +1,65 @@
+<section id="about-me-section">
+				<div class="about-me-inner"> 
+					<div class="split-box about-me">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="row-lg-height">
+
+									<!-- Column -->
+									<div class="col-lg-5 col-lg-height split-box-image no-padding bg-image" style="background-image: url({{file_url(content.field_dmd_image[ '#items'].entity.uri.value)}}); background-position: 50% 50%;">
+
+										<div class="sbi-height padding-height-80"></div>
+
+									</div> <!-- /.col -->
+
+									<!-- Column -->
+									<div class="col-lg-7 col-lg-height col-lg-middle no-padding">
+{% if dark %}                                                                              
+ <div class="full-cover for-dark-style bg-gray-3 bg-image" style="background-image: url({{ base_path ~ directory }}/assets/img/pattern/bg-pattern-1-dark.png); background-position: 50% 50%;"></div>
+ {% else %}
+ <div class="full-cover for-light-style bg-gray-3 bg-image" style="background-image: url({{ base_path ~ directory }}/assets/img/pattern/bg-pattern-1-light.png); background-position: 50% 50%;"></div>
+{% endif %}
+
+										
+
+										
+										<div class="split-box-content sb-content-right {% if paragraph.field_shifted_left.value =='1' %}shifted-left{% endif %}" >
+
+											{% if content.field_heading_title|render or content.field_heading_subtitle|render %}
+											<div class="tt-heading">
+												<div class="tt-heading-inner">
+{% if content.field_heading_title %}<h2 class="tt-heading-title">{{content.field_heading_title}}</h2>{% endif %}
+	{% if content.field_heading_subtitle %}<div class="tt-heading-subtitle">{{content.field_heading_subtitle}}</div>{% endif %}
+													<hr class="hr-short">
+												</div> 
+											</div>
+											{% endif %}
+                                            {% if content.field_itext %}
+											<div class="margin-top-30">
+												{{ content.field_itext }}
+											</div>
+                                            {% endif %}
+                                            {% if content.field_a_link1|render %}
+     {{ content.field_a_link1 }}		
+	 {% endif %} 	
+	 {% if content.field_a_link2|render %}
+     {{ content.field_a_link2 }}		
+	 {% endif %}
+											
+
+											
+
+										</div>
+										
+
+									</div> 
+
+								</div> 
+							</div> 
+						</div> 
+					</div>
+					
+
+				</div> 
+			</section>
+			

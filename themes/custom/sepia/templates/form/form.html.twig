@@ -1,0 +1,16 @@
+{% if element['#form_id'] == 'search_block_form' %}
+
+  <form action="{{element['#action']}}" method="get" id="tt-clobal-search-form" class="form-btn-inside" accept-charset="UTF-8" data-drupal-form-fields="edit-keys">
+  
+<input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="text" id="edit-keys" name="keys" value="" class="form-search form-control tt-clobal-search-input" placeholder="Type your keywords ...">
+</input>
+ <button type="submit"><i class="fa fa-search"></i></button>
+   
+  </form>
+{% else %}
+
+  <form{{ attributes }}>
+    {{ children }}
+  </form>
+
+{% endif %}

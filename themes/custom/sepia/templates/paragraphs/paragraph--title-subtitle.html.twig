@@ -1,0 +1,14 @@
+<div class="tt-heading tt-heading-lg {% if paragraph.field_add_padding.value =='1' %}padding-on{% endif %} {% if paragraph.field_horizontal_align.value|render %}{{ paragraph.field_horizontal_align.value}}{% endif %}">
+{% if content.field_title|render or content.field_subtitle|render %}
+    <div class="tt-heading-inner tt-wrap">
+{% if content.field_title|render %}<h2 class="tt-heading-title">{{ content.field_title }}</h2>{% endif %}
+{% if content.field_subtitle|render %}<div class="tt-heading-subtitle">{{ content.field_subtitle }}</div>{% endif %}
+	<hr class="hr-short">
+	</div>
+{% endif %}	
+</div>
+
+
+
+
+

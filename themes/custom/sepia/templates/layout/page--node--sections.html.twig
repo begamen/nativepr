@@ -1,0 +1,22 @@
+{% if dark %}
+{{ attach_library('sepia/dark-style') }}
+{% endif %}
+{% if page.header %}
+   {{ page.header }}
+{% endif %}
+<div id="body-content">
+<main id="main-content">
+  {% if page.content %}
+    {{ page.content }}
+  {% endif %}
+</main>
+{% if page.footer %}
+    {{ page.footer }}
+{% endif %}
+{% if page.footer_bottom %}
+    {{ page.footer_bottom }}
+{% endif %}
+{% if scrolltop %}
+    <a href="#body" class="scrolltotop sm-scroll" title="{% trans %}Scroll to top{% endtrans %}"><i class="fa fa-chevron-up"></i></a>
+{% endif %}
+</div>

@@ -1,0 +1,8 @@
+{% if content.field_c_link|render %}
+<a href="{{ paragraph.field_c_link.value|trim }}" class="cc-item">{% endif %}
+	<div class="cc-image bg-image" style="background-image: url({{file_url(content.field_c_image[ '#items'].entity.uri.value)}}); background-position: 50% 50%;"></div>
+       <div class="cc-caption {{ paragraph.field_title_position.value }} {{ paragraph.field_title_size.value }}">
+	{% if content.field_c_title|render %}<h2 class="cc-title">{{ content.field_c_title }}</h2>{% endif %}
+       </div>
+{% if content.field_c_link|render %}</a>
+{% endif %}

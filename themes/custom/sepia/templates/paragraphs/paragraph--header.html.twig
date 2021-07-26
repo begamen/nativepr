@@ -1,0 +1,55 @@
+{% if content.field_header_style|render %}
+  {% set header_style = content.field_header_style['#items'].getString() %}
+{% endif %}
+{% if content.field_menu_align|render %}
+  {% set menu_align = content.field_menu_align['#items'].getString() %}
+{% endif %}
+<header id="header" {% if menu_align == 'menu-align-center' %}class="menu-align-center"{% else %}class="{{header_style}} {{menu_align}}"{% endif %}>
+   <div class="header-inner tt-wrap">
+{{ drupal_entity('block', 'sepia_branding') }}
+   <nav class="tt-main-menu">
+		<div id="tt-m-menu-toggle-btn">
+			<span></span>
+		</div>
+	
+					<div class="tt-menu-tools">
+					
+						<ul>
+						{% if paragraph.field_search.value =='1' %}
+							<li>
+								<a href="#" class="tt-clobal-search-trigger"><i class="fa fa-search"></i></a>
+								
+								<div class="tt-clobal-search">
+									<div class="tt-clobal-search-inner">
+										<span class="tt-clobal-search-title">Search</span>
+					{{ drupal_entity('block', 'sepia_search') }}
+										
+									</div> 
+									<div class="tt-clobal-search-close"><i class="tt-close-btn tt-close-light"></i></div>
+								</div> 
+							</li>
+						{% endif %}
+                            {% if paragraph.field_language_menu_on_off.value =='1' %}
+							{{ content.field_menu_lng }}
+							{% endif %}
+						
+
+							{% if paragraph.field_show_button.value =='1' %}
+							<li class="button-link">
+								{{ content.field_button_link }}
+							</li>
+							{% endif %}
+						</ul>
+					</div>
+
+					<div class="tt-menu-collapse {% if paragraph.field_submenu_dark_style.value =='1' %}tt-submenu-dark{% endif %}">
+					{{ drupal_entity('block', 'sepia_main_menu') }}
+						
+					</div> 
+
+				</nav> 
+			
+
+			</div>
+
+		</header>

@@ -1,0 +1,31 @@
+
+{% set cat = content.field_gallery_category['#items'].getString() %}
+{% set cf = cat|replace({" ": "-", "&": "and"}) %}
+  
+
+  <div class="isotope-item {% if paragraph.field_image_2x_height.value =='1' %}iso-height-2 {% else %}iso-height-1{% endif %} {{cf|lower}}">
+   <div class="gallery-list-item">
+      <div class="gl-item-image-wrap">
+          {% if paragraph.field_link.value %}
+         <a href="{{ paragraph.field_link.value }}" class="gl-item-image-inner">
+			<div class="gl-item-image bg-image" style="background-image: url({{file_url(content.field_gallery_image[ '#items'].entity.uri.value)}}); background-position: 50% 50%"></div>
+            <span class="gl-item-image-zoom"></span>
+		 </a>
+          {% endif %}
+          {% if paragraph.field_link.value is empty %}
+              <div class="photoswipe-gallery" data-pswp-uid="2">
+                  <a href="{{file_url(content.field_gallery_image[ '#items'].entity.uri.value)}}" class="photoswipe" data-width="1200" data-height="900" >
+                          <img src="{{file_url(content.field_gallery_image[ '#items'].entity.uri.value)}}">
+                      <span class="gl-item-image-zoom"></span>
+                  </a>
+              </div>
+          {% endif %}
+      </div>
+      <div class="gl-item-info">
+		<div class="gl-item-caption">
+{% if content.field_gallery_title|render %}<h2 class="gl-item-title"><a href="{{ paragraph.field_link.value }}">{{ content.field_gallery_title }}</a></h2>{% endif %}
+{% if content.field_gallery_category|render %}<span class="gl-item-category"><a href="{{ paragraph.field_gallery_category_link.value }}">{{ content.field_gallery_category }}</a></span>{% endif %}
+		</div>
+     </div>
+	</div>
+</div>

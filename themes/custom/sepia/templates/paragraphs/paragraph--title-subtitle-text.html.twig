@@ -1,0 +1,13 @@
+{% if content.field_title_subtitle|render or content.field_ts_text|render %}
+<div class="tt-heading tt-heading-lg padding-on">
+	<div class="tt-heading-inner tt-wrap"> 
+		<div class="row">
+{% if content.field_title_subtitle|render %}
+<div class="col-md-12">
+{{ content.field_title_subtitle }}
+</div> 
+ {% endif %}
+		</div> 
+	</div> 
+</div>
+{% endif %}

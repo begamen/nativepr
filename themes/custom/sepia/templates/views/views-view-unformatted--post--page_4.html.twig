@@ -1,0 +1,20 @@
+<section id="blog-list-section" class="blog-list-grid">
+	<div class="blog-list-inner tt-wrap"> 
+    <div class="row no-margin">
+     <div class="col-md-12 no-padding-left no-padding-right">
+       <div class="isotope-wrap">
+		<div class="isotope col-2 gutter-3">
+         <div class="isotope-items-wrap no-margin-top">
+         <div class="grid-sizer"></div>
+
+{% for row in rows %}
+ {{ row.content }}
+{% endfor %}
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>

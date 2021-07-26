@@ -1,0 +1,18 @@
+<section id="footer-bottom" class="footer-bottom footer-minimal {% if paragraph.field_margin_top.value =='0' %}no-margin-top{% endif %} {% if paragraph.field_fdark.value =='1' %}footer-dark{% endif %}">
+				
+					<div class="footer-container {% if paragraph.field_f_content_full_width.value =='1' %}full-width{% else %}tt-wrap{% endif %}">
+						<div class="row">
+                        {% if content.field_right|render %}
+							<div class="col-md-6 col-md-push-6">
+							 {{ content.field_right }}	
+	                        </div> 
+                        {% endif %}
+                        {% if content.field_fleft|render %}
+							<div class="col-md-6 col-md-pull-6">
+                             {{ content.field_fleft }}
+                            </div> 
+                        {% endif %}    
+						</div>
+					</div>
+				
+</section>

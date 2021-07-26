@@ -1,0 +1,52 @@
+{% if dark %}
+{{ attach_library('sepia/dark-style') }}
+{% endif %}
+{% if page.header %}
+   {{ page.header }}
+{% endif %}
+<div id="body-content">
+ {{ drupal_field('field_page_header', 'node') }}
+ 
+ <section id="page-section" class="page-classic">
+	<div class="page-section-inner tt-wrap"> 
+        <div class="container-fluid">
+			<div class="row">
+ 
+  {% if page.sidebar_first | render %}
+        <div class="page-sidebar sidebar-left">
+          <div class = {{sidebarfirst}} >
+            {{ page.sidebar_first }}
+          </div>
+        </div>
+	  {% endif %}
+
+      {% if page.content | render %}
+
+          <div class="main-content">
+          <div class={{contentlayout}}>
+            {{ page.content }}
+          </div>
+          </div>
+
+	  {% endif %}
+
+      {% if page.sidebar_second | render %}
+        <div class="page-sidebar sidebar-right">
+          <div class={{sidebarsecond}}>
+            {{ page.sidebar_second }}
+          </div>
+        </div>
+	  {% endif %}
+
+</div></div></div>
+</section>
+{% if page.footer %}
+    {{ page.footer }}
+{% endif %}
+{% if page.footer_bottom %}
+    {{ page.footer_bottom }}
+{% endif %}
+{% if scrolltop %}
+    <a href="#body" class="scrolltotop sm-scroll" title="{% trans %}Scroll to top{% endtrans %}"><i class="fa fa-chevron-up"></i></a>
+{% endif %}
+</div>

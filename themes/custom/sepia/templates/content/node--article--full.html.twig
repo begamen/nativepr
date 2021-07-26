@@ -1,0 +1,54 @@
+<article class="blog-single-post lightgallery">
+  <a href="{{file_url(content.field_image[ '#items'].entity.uri.value)}}" class="blog-single-featured-image lg-trigger" data-exthumbnail="assets/img/blog/list/blog-1.jpg">
+									{{ content.field_image }}
+								</a>
+								<!-- End blog single featured image -->
+
+								<!-- Begin blog single heading -->
+								<div class="blog-single-post-heading">
+									<h1 class="blog-single-post-title">{{ label }}</h1>
+									<div class="blog-single-post-category">{{ content.field_tags }}</div>
+								</div>
+								<!-- End blog single heading -->
+
+								<!-- Begin blog single post inner -->
+								<div class="blog-single-post-inner">
+
+									<!-- Begin blog single attributes -->
+									<div class="blog-single-attributes">
+										<div class="row">
+											<div class="col-sm-8">
+
+												<!-- Begin blog single meta -->
+												<div class="blog-single-meta-wrap">
+
+													<!-- Blog single author avatar -->
+
+													<div class="blog-single-meta">
+														<div class="article-time-cat">
+															<span class="article-time">{{ date }}</span>
+														</div>
+													</div>
+
+												</div>
+												<!-- End blog single meta -->
+
+											</div> <!-- /.col -->
+
+											<div class="col-sm-4">
+
+											</div> <!-- /.col -->
+										</div> <!-- /.row -->
+									</div>
+									<!-- End blog single attributes -->
+
+									<!-- Begin post content -->
+									<div class="post-content">
+
+										{{ content.body }}
+										
+										</div> <!-- /.col -->
+								</div>
+								
+
+</article> 

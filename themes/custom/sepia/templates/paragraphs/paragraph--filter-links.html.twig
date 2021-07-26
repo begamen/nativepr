@@ -1,0 +1,3 @@
+{% set tr = paragraph.field_category_link.value|trim %}
+{% set pf = tr|replace({" ": "-", "&": "and"}) %}
+<li><a href="#" data-filter=".{{pf|lower}}" class="">{{paragraph.field_category_link.value}}</a></li>

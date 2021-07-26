@@ -1,0 +1,19 @@
+name: Sepia
+type: theme
+description: Sepia Drupal 8 theme.
+core: 8.x
+base theme: stable
+libraries:
+  - sepia/global-styling
+  - sepia/google-fonts
+
+
+regions:
+  header: 'Header'
+  sidebar_first: Slidebar First
+  content: Content
+  sidebar_second: Slidebar Second
+  footer: 'Footer'
+  footer_bottom: 'Footer bottom'
+  hidden_blocks_collection: 'Hidden blocks collection'
+

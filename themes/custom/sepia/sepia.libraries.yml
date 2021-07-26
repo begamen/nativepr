@@ -1,0 +1,67 @@
+global-styling:
+  version: 1.x
+  global-styling:
+  version: 1.x
+  js:
+    assets/vendor/bootstrap/js/bootstrap.min.js: {}
+    assets/vendor/animsition/js/animsition.min.js: {}
+    assets/vendor/jquery.easing.min.js: {}
+    assets/vendor/isotope.pkgd.min.js: {}
+    assets/vendor/imagesloaded.pkgd.min.js: {}
+    assets/vendor/owl-carousel/js/owl.carousel.min.js: {}
+    assets/vendor/jquery.mousewheel.min.js: {}
+    assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js: {}
+    assets/vendor/lightgallery/js/lightgallery.min.js: {}
+    assets/vendor/lightgallery/js/lightgallery-plugins.js: {}
+    assets/js/theme.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
+  css:
+    theme:
+      assets/vendor/bootstrap/css/bootstrap.min.css: {}
+      assets/vendor/animsition/css/animsition.min.css: {}
+      assets/vendor/font-awesome/css/font-awesome.min.css: {}
+      assets/vendor/lightgallery/css/lightgallery.min.css: {}
+      assets/vendor/animate.min.css: {}
+      assets/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css: {}
+      assets/vendor/owl-carousel/css/owl.carousel.min.css: {}
+      assets/vendor/owl-carousel/css/owl.theme.default.min.css: {}
+      assets/css/helper.css: {}
+      assets/css/theme.css: {}
+      #assets/css/dark-style.css: {}
+
+google-fonts:
+  version: VERSION
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700': { type: external, minified: true }
+
+dark-style:
+  version: VERSION
+  js:
+    assets/js/ds.js: {}
+  dependencies:
+    - core/jquery 
+
+  css:
+    theme:
+      assets/css/dark-style.css: {}
+      
+remove-class-from-body:
+  version: VERSION
+  js:
+    assets/js/rbc.js: {}
+  dependencies:
+    - core/jquery  
+    
+gmap:
+  version: VERSION
+  js:
+    assets/vendor/map.js: { weight: -1 }
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyAo5b533IB2iuDcTn2razvfjyc_rpZdiRw&callback=initMap: { type: external, weight: -1}
+        

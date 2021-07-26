@@ -1,0 +1,10 @@
+<div class="isotope {% if content.field_columns|render %}{{ paragraph.field_columns.value}}{% endif %} {% if content.field_space_between_items|render %}{{ paragraph.field_space_between_items.value}}{% endif %}">
+{% if content.field_iz_filter|render %}
+{{ content.field_iz_filter }}
+{% endif %}
+ 
+  <div class="isotope-items-wrap {% if content.field_colored_hover_overlay|render %}{{ paragraph.field_colored_hover_overlay.value}}{% endif %} {% if content.field_gallery_list_item_style|render %}{{ paragraph.field_gallery_list_item_style.value}}{% endif %}{% if paragraph.field_frame.value =='1' %} gli-frame{% endif %}">
+	<div class="grid-sizer"></div>
+	{{ content.field_gallery_item }}
+  </div>
+</div>

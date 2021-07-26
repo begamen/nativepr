@@ -1,0 +1,21 @@
+<section id="contact-section">
+	<div class="contact-section-inner tt-wrap">
+		<div class="split-box">
+			<div class="container-fluid">
+			<div class="row">
+			<div class="row-lg-height full-height-vh">
+			{% if content.field_left_side|render %}
+			{{ content.field_left_side }}
+            {% endif %}
+            {% if content.field_right_side|render %}
+			{{ content.field_right_side }}
+            {% endif %}
+            {% if content.field_bottom|render %}
+			{{ content.field_bottom }}
+            {% endif %}                              
+			</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>

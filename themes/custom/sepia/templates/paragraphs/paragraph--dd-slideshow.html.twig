@@ -1,0 +1,13 @@
+<section id="tt-intro" class="slideshow-intro">
+	<div class="tt-intro-inner"> 
+		<div class="gl-carousel-wrap no-padding">
+        {% if paragraph.field_mouswheel_scrolling.value =='1' %}
+		    <div class="owl-carousel cc-height-full cursor-grab owl-mousewheel dots-right bg-dark owl-loaded owl-drag cc-item-hovered" data-items="1" data-loop="true" data-nav="true" data-animate-in="fadeIn" data-animate-out="fadeOut">
+		{% else	%}
+    <div class="owl-carousel cc-height-5 cursor-grab dots-right bg-dark" data-items="1" data-loop="true" data-nav="true" data-nav-speed="500" data-dots-speed="500" data-autoplay="true" data-autoplay-timeout="8000" data-autoplay-speed="500" data-autoplay-hover-pause="true">
+         {% endif %}
+{{ content.field_slideshow_item }}
+			</div>
+        </div> 
+	</div> 
+</section>

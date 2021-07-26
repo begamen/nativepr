@@ -1,0 +1,30 @@
+<section class="call-to-action-section">
+  {% if dark %}
+   <div class="full-cover for-dark-style bg-image" style="background-image: url({{ base_path ~ directory }}/assets/img/pattern/bg-pattern-2-dark.png); background-position: 50% 50%;"></div>
+   {% else %}
+    <div class="full-cover for-light-style"></div>
+ {% endif %}
+	<div class="call-to-action-inner tt-wrap"> 
+				<div class="row">
+					<div class="col-md-12 text-center">
+
+{{ content.field_cta_title_subtitle }}
+
+						
+		 
+	
+	<div class="margin-top-30 max-width-1000 margin-auto">
+                         {% if content.field_cta_text|render %} 
+								{{ content.field_cta_text }}
+						 {% endif %}
+                         {% if content.field_cta_link1|render  or content.field_cta_link2|render %}    
+								<div class="margin-top-30">
+ {% if content.field_cta_link1|render  %}{{ content.field_cta_link1 }}{% endif %}
+ {% if content.field_cta_link2|render  %}{{ content.field_cta_link2 }}{% endif %}
+								</div>
+							{% endif %}	
+	 </div>						
+    </div>
+    </div>
+    </div> 
+</section>

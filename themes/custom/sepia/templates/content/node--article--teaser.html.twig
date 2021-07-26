@@ -1,0 +1,26 @@
+<div class="search-results-item">
+<div class="sr-item-img">
+	{{ content.field_image }}
+</div>     
+        <div class="sr-item-info">
+		<div class="sr-item-category">{{ content.field_tags }}</div>
+			<h2 class="sr-item-title"><a href="{{ url }}" rel="bookmark">{{ label }}</a></h2>
+				<div class="sr-item-meta"> 
+					<span class="published">{{ date }}</span>
+					<span class="posted-by">{% trans %}- by {{ user.displayname }}{% endtrans %}</span>
+				</div>
+			
+				<div class="sr-item-description" data-max-words="25">
+				{{ content.body }}
+				</div>
+				<a href="{{ url }}" class="btn btn-default btn-sm margin-top-20">{{"Read More"|t}}</a>
+
+				<ul class="sr-item-attr">
+					<li>
+					
+					<a href="{{ url }}" class="sr-item-comments-count" title={% trans %}"Read the comments"{% endtrans %}><i class="fa fa-comment-o"></i>  {{ comment_count }}</a>
+													
+					</li>
+				</ul>
+	    </div>							
+</div>

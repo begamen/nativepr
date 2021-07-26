@@ -1,0 +1,12 @@
+<div class="prices-section-inner tt-wrap">
+	<div class="price-boxes-container margin-bottom-80">
+	<div class="row">
+{% for item in items %}   
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-{{ 12 // loop.length }}">
+	{{ item.content }}
+    </div>					
+{% endfor %}
+   </div>
+   </div>
+</div>
+		

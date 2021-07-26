@@ -1,0 +1,11 @@
+<div class="latest-news-section-inner tt-wrap"> 
+ <div class="latest-news-carousel">
+<div class="owl-carousel cursor-grab nav-outside-top" data-items="3" data-margin="30" data-loop="true" data-dots="false" data-nav="true" data-nav-speed="500" data-autoplay="true" data-autoplay-timeout="5000" data-autoplay-speed="500" data-autoplay-hover-pause="true" data-tablet-landscape="3" data-tablet-portrait="2" data-mobile-landscape="1" data-mobile-portrait="1">
+
+   {% for row in rows %}
+ {{ row.content }}
+{% endfor %}
+
+</div>
+</div>
+</div>

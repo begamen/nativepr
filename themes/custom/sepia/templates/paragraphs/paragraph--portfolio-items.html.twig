@@ -1,0 +1,9 @@
+<div class="isotope {% if content.field_pcolumns|render %}{{ paragraph.field_pcolumns.value}}{% endif %} {% if content.field_pspace_between_items|render %}{{ paragraph.field_pspace_between_items.value}}{% endif %}">
+
+ 
+  <div id="gallery" class="isotope-items-wrap lightgallery {% if content.field_portfolio_item_cover|render %}{{ paragraph.field_portfolio_item_cover.value}}{% endif %} ">
+	<div class="grid-sizer"></div>
+	{{ content.field_portfolio_item }}
+  </div>
+</div>
+

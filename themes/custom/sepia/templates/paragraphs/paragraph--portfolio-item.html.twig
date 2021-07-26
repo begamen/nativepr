@@ -1,0 +1,16 @@
+{% if content.field_p_video_link|render %}
+<div class="isotope-item">
+    <a href="{{ paragraph.field_p_video_link.value }}" class="gallery-single-item lg-trigger">
+       <img src="{{file_url(content.field_portfolio_image[ '#items'].entity.uri.value)}}" class="gs-item-image" alt="{{ content.field_portfolio_image[ '#items'].alt }}">
+		{% if content.field_item_icon|render %}<div class="gs-item-icon"><i class="{{ paragraph.field_item_icon.value }}"></i></div>{% endif %}
+	</a>
+</div>
+{% else %}
+<div class="isotope-item">
+	<a href="{{file_url(content.field_portfolio_image[ '#items'].entity.uri.value)}}" class="gallery-single-item lg-trigger" data-exthumbnail="{{file_url(content.field_portfolio_image[ '#items'].entity.uri.value)}}" {% if content.field_image_caption|render %}data-sub-html="<p>{{ content.field_image_caption}}</p>"{% endif %}>
+     <img src="{{file_url(content.field_portfolio_image[ '#items'].entity.uri.value)}}" class="gs-item-image bg-image" alt="{{ content.field_portfolio_image[ '#items'].alt }}">
+		{% if content.field_image_caption|render %}<div class="gsi-image-caption">{{ content.field_image_caption }}</div>{% endif %}
+{% if content.field_item_icon|render %}<div class="gs-item-icon"><i class="{{ paragraph.field_item_icon.value }}"></i></div>{% endif %}
+	</a>
+</div>
+{% endif %}

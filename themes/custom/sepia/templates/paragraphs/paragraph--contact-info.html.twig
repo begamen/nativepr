@@ -1,0 +1,9 @@
+<div class="col-lg-6 col-lg-height col-lg-middle bg-image" {% if content.field_con_background_image %} style="background-image: url({{file_url(content.field_con_background_image[ '#items'].entity.uri.value)}}); background-position: 50% 50%;"{% endif %}>
+<div class="cover"></div>
+{% if content.field_dmd_text|render %}
+{{ content.field_dmd_text }}
+{% endif %}
+</div>
+
+
+

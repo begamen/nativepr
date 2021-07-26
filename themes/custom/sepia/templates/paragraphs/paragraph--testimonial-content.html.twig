@@ -1,0 +1,13 @@
+
+<div class="cc-item">
+<div class="testimonial-item text-white">
+	<div class="tm-image bg-image" style="background-image: url({{file_url(content.field_t_image[ '#items'].entity.uri.value)}}); background-position: 50% 50%;"></div>
+		<blockquote>
+	{% if content.field_t_text|render %}<p>{{ content.field_t_text }}</p>{% endif %}
+	{% if content.field_name|render %}<small>{{ content.field_name }}</small>{% endif %}
+		</blockquote>
+	</div>
+</div>
+
+
+				

@@ -1,0 +1,30 @@
+<section id="page-header" class="{% if content.field_page_header_bg_image %}ph-image-on{% else %}{% endif %} {{ paragraph.field_align_page_header_caption.value}}">
+<div class="page-header-image {% if content.field_page_header_bg_image %}{{ paragraph.field_background_image_parallax_.value}}{% endif %} bg-image" {% if content.field_page_header_bg_image %}style="background-image: url({{file_url(content.field_page_header_bg_image[ '#items'].entity.uri.value)}}); background-position: center 0px;">{% endif %}
+	<div class="cover {{ paragraph.field_background_transparent.value}}"></div>
+</div>
+<div class="page-header-inner tt-wrap">
+
+<div class="page-header-caption {{ paragraph.field_page_header_size.value}} {{ paragraph.field_parallax_effect.value}} {{ paragraph.field_fade_out_effect.value}}" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+					
+					
+					{% if paragraph.field_drupal_page_title.value =='1' or content.field_page_header_title | render %}
+					{% if paragraph.field_drupal_page_title.value =='1' %}
+						<h1 class="page-header-title">{{ drupal_title() }}</h1>
+					{% endif %}
+					{% if paragraph.field_drupal_page_title.value =='0' and content.field_page_header_title | render %}
+					<h1 class="page-header-title">{{ content.field_page_header_title }}</h1>
+					{% endif %}
+					<hr class="hr-short">
+					{% endif %}
+					{% if  content.field_page_header_description | render %}	
+						<div class="page-header-description">
+							<p>{{ content.field_page_header_description }}</p>
+						</div>
+                    {% endif %}
+					</div>
+
+
+				</div>
+</section>
+
+
