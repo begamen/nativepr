@@ -129,6 +129,7 @@ function sepia_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\For
   $form['actions']['submit']['#attributes']['class'][] = 'margin-top-40';
   
   // Preview
+  $form['actions']['preview']['#access'] = FALSE;
   $form['actions']['#weight'] = 99;
  // $form['actions']['#prefix'] = '<div class="clearfix">';
   $form['actions']['#suffix'] = '</div>';

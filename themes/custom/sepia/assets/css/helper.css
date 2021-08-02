@@ -133,8 +133,8 @@
 .bg-image {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	background-size: contain;
 }
 .bg-image-fixed {
 	background-attachment: fixed;
@@ -568,7 +568,7 @@ body.header-transparent-on .full-height-vh {
 .bg-transparent-5-5-dark { background-color: rgba(0, 0, 0, 0.55) !important; }
 .bg-transparent-6-dark { background-color: rgba(0, 0, 0, 0.6) !important; }
 .bg-transparent-6-5-dark { background-color: rgba(0, 0, 0, 0.65) !important; }
-.bg-transparent-7-dark { background-color: rgba(0, 0, 0, 0.7) !important; }
+.bg-transparent-7-dark { background: #333232 !important; }
 .bg-transparent-7-5-dark { background-color: rgba(0, 0, 0, 0.75) !important; }
 .bg-transparent-8-dark { background-color: rgba(0, 0, 0, 0.8) !important; }
 .bg-transparent-8-5-dark { background-color: rgba(0, 0, 0, 0.85) !important; }

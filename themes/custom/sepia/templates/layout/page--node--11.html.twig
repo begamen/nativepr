@@ -1,0 +1,80 @@
+{% if dark %}
+{{ attach_library('sepia/dark-style') }}
+{% endif %}
+{% if page.header %}
+      {{ page.header }}
+{% endif %}
+<div id="body-content">
+<main id="main-content">
+ <section id="page-section" class="page-classic">
+	<div class="page-section-inner tt-wrap"> 
+        <div class="container-fluid">
+			<div class="row">
+  {% if page.sidebar_first | render %}
+        <div class="sidebar" >
+          <div class = {{sidebarfirst}} >
+            {{ page.sidebar_first }}
+          </div>
+        </div>
+	  {% endif %}
+
+      {% if page.content | render %}
+        <div class="content_layout">
+          <div class={{contentlayout}}>
+              <div class="contact paragraph--type--dd-block row">
+                  <h3 class="block-title text-align-center">Kontakt</h3>
+                  <div class="contact-left col-sm-12 col-md-6">
+                      <h4>Native PR, s.r.o.</h4>
+                      <div class="under-txt">
+                          Krocínova 1 <br>
+                          110 00 Praha 1 <br>
+                          DIČ: CZ 60202335<br>
+                      </div>
+                      <div class="row">
+                          <div class="call col-sm-6 col-md-6">
+                              <a class="btn btn-social-min btn-lg btn-default btn-link" href="tel:221592450" title="Zavolejte nám"><i class="fa fa-mobile">&nbsp;</i></a>
+                              <br> zavolejte nám...
+                              <div class="nmbr"><a href="tel:221592450" title="Zavolejte nám">221 592 450</a></div>
+                          </div>
+                          <div class="call col-sm-6 col-md-6">
+                              <a class="btn btn-social-min btn-lg btn-default btn-link" href="mailto:welcome@nativepr.cz" title="Napište nám"><i class="fa fa-envelope">&nbsp;</i></a>
+                              <br>napište nám...
+                              <div class="nmbr"> <a href="mailto:welcome@nativepr.cz" title="Napište nám">welcome@nativepr.cz </a></div>
+                          </div>
+                          <div class="under-txt">
+                              Krizová linka 24/7<br>
+                              +420 603 574 650
+                          </div>
+                      </div>
+
+                  </div>
+                  <div class="contact-right col-sm-12 col-md-6">
+                      {{ page.hidden_blocks_collection.contactblock }}
+                  </div>
+              </div>
+          </div>
+        </div>
+	  {% endif %}
+
+      {% if page.sidebar_second | render %}
+        <div class="sidebar">
+          <div class={{sidebarsecond}}>
+            {{ page.sidebar_second }}
+          </div>
+        </div>
+	  {% endif %}
+       </div>
+    </div>
+   </div>
+</section>
+</main>
+{% if page.footer %}
+    {{ page.footer }}
+{% endif %}
+{% if page.footer_bottom %}
+    {{ page.footer_bottom }}
+{% endif %}
+{% if scrolltop %}
+    <a href="#body" class="scrolltotop sm-scroll" title="{% trans %}Scroll to top{% endtrans %}"><i class="fa fa-chevron-up"></i></a>
+{% endif %}
+</div>

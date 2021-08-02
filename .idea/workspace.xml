@@ -2,166 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c77d02-8a30-4da4-b02b-62ad53743d2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/layout/views-mini-pager.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/inline-images/calc-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__3de507_e_gDJ0ku-hIeU2nfMdhQwTmGx/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__3de507_e_gDJ0ku-hIeU2nfMdhQwTmGx/IrZUVwCyNT7Ta2YkMign47osN9xkbZXlICuk0fU_nWA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__6a2704_6zUyrS03X7NalfqblnSsae1fX/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__6a2704_6zUyrS03X7NalfqblnSsae1fX/1rpCY4wsbfo90ixT7o8kfUw4m9QP07hsY-QIIDDN52o.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__d3e79b_vR_GLyFDx4dFTZGkV15oNc_9T/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d___string_template__d3e79b_vR_GLyFDx4dFTZGkV15oNc_9T/yPE9Ott7h7ycjVFgByFFwauH4xnVXo0YFSxk-XT_ilM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--headerblock.html.t_CJqEgmBoJ9r_-oSngIn7JuQyq/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--headerblock.html.t_CJqEgmBoJ9r_-oSngIn7JuQyq/FFlgwF1UzNBHft4Yfs4vzWzkh4Ugg1uwkWz4QLH6wfI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--local-actions-bloc_sljJ281IOF0UhgrElIvHU9Z6V/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--local-actions-bloc_sljJ281IOF0UhgrElIvHU9Z6V/LWHohiuuuW-LbhTlxlWRRwG8acMKBR0gR2U_0Qxgbkw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--local-tasks-block._w5tMMZLvvvVc8DD7nxVkCz3-r/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--local-tasks-block._w5tMMZLvvvVc8DD7nxVkCz3-r/NyhneV6szuPMD1ERYWAvMolnxjJq3wm0akKRlj-8WeA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--sepia-search.html._BGgq2jjhYlXTi9mZWVLanEQ9A/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--sepia-search.html._BGgq2jjhYlXTi9mZWVLanEQ9A/_fypeYbCyOFPdYDKd-bRSFs3Mc4R9cU_W8R9g6mx89Y.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-branding-bl_KZcbHp9NXDiNiWx3-YPj16yMG/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-branding-bl_KZcbHp9NXDiNiWx3-YPj16yMG/l_UFHwXC7eT49naLKSSZ_-eybhdt0NyOofZR7xup4FQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-menu-block-_2HsPrwCeD7DBcsXeWzxikB2Na/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-menu-block-_2HsPrwCeD7DBcsXeWzxikB2Na/tEVYLCKKw_jMDm2kGGcfzs2YLa1lix6Gp2kAi9_yIpQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-messages-bl_QSTcwzveIBaWdZJVnrMYw4G55/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-messages-bl_QSTcwzveIBaWdZJVnrMYw4G55/QzXAOLwFKM8hSeXTGL4-ZAdyjug2uj5gJ1LQCZ11CJw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-messages-bl_Y9IkKfOKK2_l9uH4vLG7QDIk8/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block--system-messages-bl_Y9IkKfOKK2_l9uH4vLG7QDIk8/nqspAuINC4Vg-6rdd2I_oZjod8ixExzspS1OtKsSOlA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_RGclEoUAboVmmRB0L-HLXDM8t/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_RGclEoUAboVmmRB0L-HLXDM8t/FkCsGg_YiGAe-WB_esUn9MAvtwSrGMjRjW9U1iY4G2I.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_ZIXkl4qJ3DrqEY3xGL4OfctfM/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_ZIXkl4qJ3DrqEY3xGL4OfctfM/Nnf5Z2xe-PlrGr3zD9ewq_qhhRZbD1MvIkn6EOatuZA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_ipfKVXm29uByS0b8ca2tUXBP1/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_block.html.twig_ipfKVXm29uByS0b8ca2tUXBP1/VP20Jl-JZqb12NWitKCDfAhHKDkl8T2mrNQXLhUR5GY.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_breadcrumb.html.twig_ztZFW6q-CKdKfL4Dsc-dFSF1W/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_breadcrumb.html.twig_ztZFW6q-CKdKfL4Dsc-dFSF1W/QGt7RxtlyAPwtF8BM_Kgo3edDkNpbcRR2NMvSzim4VA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_RIt_g1P_O2hIIDU_hUuXqOcSA/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_RIt_g1P_O2hIIDU_hUuXqOcSA/_spYGJSsEGuT0thT8tno6y3unC3jP9mEyucB_payhU0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_o0fME-QvhZ1mitm2tBuqxC95u/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_o0fME-QvhZ1mitm2tBuqxC95u/LAQCyyg8UaXHdoZ4iVMfsdvsyy6Mph0aPiOq3h6GDNc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_o0fME-QvhZ1mitm2tBuqxC95u/Vlmg9gOWSY0h5cDv_v1_YtHTgTKm_DtzYbzsTRBuelk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_container.html.twig_o0fME-QvhZ1mitm2tBuqxC95u/gHhIimHRQp-DH-WtC_A6NL6YfiHFIOEia9EiDVSys9Y.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_details.html.twig_5sDT0lhf8m5QM8wxDCXEwa0wg/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_details.html.twig_5sDT0lhf8m5QM8wxDCXEwa0wg/auMqbquM8IAtjyBYxXmgppsm4uBDOmZp85WOqcakKow.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_dropbutton-wrapper.html.t_PidLrQa9ggUgJ2YojfEG8uieN/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_dropbutton-wrapper.html.t_PidLrQa9ggUgJ2YojfEG8uieN/y1bFiLxg2stcwDgxTr5_50BACji0Pehf70OK-87Xv20.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--entity-reference-r_Ty_upom8j2i6KjUyjmLCWiX17/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--entity-reference-r_Ty_upom8j2i6KjUyjmLCWiX17/tRh90IsupzFxd3Mjoy_35TCgM5g_NnZTeHtwv4JfIBg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--created.html_aljq68GN_3KnJCF7AiOrBJi__/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--created.html_aljq68GN_3KnJCF7AiOrBJi__/oiCuRKGbDomoDMvF-rgYIs-QkhRaR_DpE_y9ufdyyMY.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--title.html.t_j1hbVYhiThTeDGbpwTaeq1Sk6/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--title.html.t_j1hbVYhiThTeDGbpwTaeq1Sk6/FRlgo6Ze-7vAvVyofdSOJrjLhqTNQByMINxwG2AFi6E.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--uid.html.twi_Mvx8WmdG5EMLihX_lKClxwM8N/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field--node--uid.html.twi_Mvx8WmdG5EMLihX_lKClxwM8N/2tPdQsIP9USW0PeQuN9bHL40_iy4VoiqJhYKFam6g-A.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field-multiple-value-form_EiFYpihc8LobzA8m9GhraYjA7/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field-multiple-value-form_EiFYpihc8LobzA8m9GhraYjA7/3_19RWmOxI0NRblcLtl5MnaDbFjzK9fRFbFiFjxf8U0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field-multiple-value-form_YTgn139Kk7vaUPTLbEYX-wu33/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field-multiple-value-form_YTgn139Kk7vaUPTLbEYX-wu33/RkUNs2_rIeDD56QZrOhuBpMfoP3e3DqIfvokvsXJpIg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field.html.twig_4m9g5l9VRDCAeA9RNr_V62G3g/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_field.html.twig_4m9g5l9VRDCAeA9RNr_V62G3g/86fLVAmlWy8GG1wmSE9CRr4bI4uPzLIy-hOH9UxsOL4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element-label.html.t_GdjT79DjiwRmkaz41VLcpNjSC/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element-label.html.t_GdjT79DjiwRmkaz41VLcpNjSC/xgKGGvVIKYyWZkQHnKgidocl3QMDg8DBWGJWWfjmV7k.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element-label.html.t_KH98S_uR7ksV6WGSRf7JZiAJz/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element-label.html.t_KH98S_uR7ksV6WGSRf7JZiAJz/0YTaWBCgOZadi71ezn8V1QA6voCVmMzmeLpvfhzFIHQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element.html.twig_4hcqqmJdrvfH0GLPFffcZx1Zw/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element.html.twig_4hcqqmJdrvfH0GLPFffcZx1Zw/Lh-k4NM8xySLGYz7d-t43Kteio1cWNX3tWDIlI4wqeA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element.html.twig_mjZIxTgZJen-6tkrZvHdiWm80/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form-element.html.twig_mjZIxTgZJen-6tkrZvHdiWm80/UY-yVb0m0BiWxWMbjU6nRuf_7wmL-4JV3-xH6m_xoSA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form.html.twig_TVE_6lRs0sfMqYMg_S1FpecjG/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form.html.twig_TVE_6lRs0sfMqYMg_S1FpecjG/yVUjeWem89AyTZK2WuF9xkEeN3CA_hkKGPmkdpcafcE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form.html.twig_sCWy_Cc0Q_t417xyqCXD8TesA/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_form.html.twig_sCWy_Cc0Q_t417xyqCXD8TesA/FLa-AsfhJLgQGuzW9MoNcBJOGp9iEYabmg0FND8iFDM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_html.html.twig_D03sJhTgJhEIiJux4pRzbVuiE/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_html.html.twig_D03sJhTgJhEIiJux4pRzbVuiE/g1WOJHiGXAHsalcnrBUonRMd2VTnqZUJNJxhrFnRMiQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_html.html.twig_wbkqA97bXhU7acK_k1zxoq9jn/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_html.html.twig_wbkqA97bXhU7acK_k1zxoq9jn/cJJy7GX-AdO1VGVkmt_sazQQBqmqy-ayWHreZ3-FB7g.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_indentation.html.twig__lugsZXp2P0lorMRCX6l0LKKT/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_indentation.html.twig__lugsZXp2P0lorMRCX6l0LKKT/6tNxP_7JwNp6Z3jeX5jsTdihXwx7xLbjYVIXRjschxY.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_input.html.twig_JMHJFQcTPR0RjrgZgbxAjhqJ_/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_input.html.twig_JMHJFQcTPR0RjrgZgbxAjhqJ_/ojOOYWHxoS-RMvDxZUn6qz454K_onrN0nyF5yytR3yg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_input.html.twig_eQEbE_RinKGhe6iVa3uZ2O1e3/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_input.html.twig_eQEbE_RinKGhe6iVa3uZ2O1e3/I56QMbw4jtx2gKlDB1Ah6qTuudOKcPZv3xFAsGbWoDQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_item-list.html.twig_eEN1zZ4ANR7bdi9_6GOC3ocbY/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_item-list.html.twig_eEN1zZ4ANR7bdi9_6GOC3ocbY/BmVP5gpcb8jOPlQKQH2C6AHN7DNCQvT7qD1gFymnWAc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_links.html.twig_FMCJcncnaJXNL_25mu5mZ01pk/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_links.html.twig_FMCJcncnaJXNL_25mu5mZ01pk/i4yYpThTxiUgK9poZYpTwu_y5fN6aYCCQceK74rIUxw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_links.html.twig_KIRiR7qNy2oelbvEb8X8WbSME/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_links.html.twig_KIRiR7qNy2oelbvEb8X8WbSME/grfazrh5vyotBppq2U-hJIMkjwFiMDTySdyX0vOSSN0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu--main.html.twig_ryNW4ad9EtpIh5SZtCCnBszGR/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu--main.html.twig_ryNW4ad9EtpIh5SZtCCnBszGR/m2t_A6ciDsUS5Rch8NhHB9bZeyzZSZtSaPm7zJEyMWM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu--toolbar.html.twig_-R6cwISShRCULL8CEsJE2FH50/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu--toolbar.html.twig_-R6cwISShRCULL8CEsJE2FH50/type2Oog8-YYPPL1hlWpm-XwIJqberwjm5VseHhv--A.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-action.html.tw_xuBqdNUCcEaiAJr-NZnI6CE3Y/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-action.html.tw_xuBqdNUCcEaiAJr-NZnI6CE3Y/cTZjAF6NgEhmIhRZng9V7a2pOA9jl8VUlVdfaZ_6_70.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-task.html.twig_9CniZ-NASRJYmyOWwnY_Ujjhe/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-task.html.twig_9CniZ-NASRJYmyOWwnY_Ujjhe/xO_3-QM7q4lD9TipOK-8xorZhEH2ni15plxqlklIIks.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-task.html.twig_PtsdcmnEQXKhpkMOx7DSwTCkX/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-task.html.twig_PtsdcmnEQXKhpkMOx7DSwTCkX/3jXtWELZi09_xNBXUT2_sHe9Uc_lBvU5q0Fh5jRjmH4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-tasks.html.twi_NI6pF9NdledQMzES__wfERoU6/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-tasks.html.twi_NI6pF9NdledQMzES__wfERoU6/4uB2OlsA88K1ZhPcTgYTrUbzlNFd9WO--bC69-GL2LQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-tasks.html.twi_TK_0YaTwv5YMyLb-zIP89m1cN/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_menu-local-tasks.html.twi_TK_0YaTwv5YMyLb-zIP89m1cN/PCRzFZ7rmB5MXdhwSQl87TkUKfCUedu1LYs-9zov_AM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_node--page.html.twig_S7OhvuE0snCto2OUQOS_otZs6/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_node--page.html.twig_S7OhvuE0snCto2OUQOS_otZs6/rtPE0AP7ojcxNN8KWVcpPGqXr6Xg90hBd279ekSr5js.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_node--sections.html.twig_8HwTJDHUnf7WLy1eCKKgeahmP/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_node--sections.html.twig_8HwTJDHUnf7WLy1eCKKgeahmP/WwAKrR8tY_2Zz8Zzdlv-ZUFaRGOof5ULBVl5P2Shr6Y.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_off-canvas-page-wrapper.h_1fT9Xsy_5dvtUccE3fx4HRRUK/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_off-canvas-page-wrapper.h_1fT9Xsy_5dvtUccE3fx4HRRUK/nyffbHEbxHf2NzsPVIdBgBReUpEEEBrJnoZ5TtB5KWE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page--node--page.html.twi_2AT3h5I0JXCjAqOgpPdPJbKVK/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page--node--page.html.twi_2AT3h5I0JXCjAqOgpPdPJbKVK/xBRiTUhoZD43juDBaIxNfBtOBKIFP8atDIdbV_OKYZo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page--node--sections.html_LERY27b9SuCqMdYe3lYRBN94Y/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page--node--sections.html_LERY27b9SuCqMdYe3lYRBN94Y/ILcXonujl37p4nG1ncwak7QnikqLh8rtVxZYVxXDbpM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page-title.html.twig_62iMtNStjXuGNauw23D7Num54/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page-title.html.twig_62iMtNStjXuGNauw23D7Num54/foXaO3dy1B1F3jb_RVNjEHo03B_6r-tH96gb2Q1lwxM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page.html.twig_0SsFQmRBjYUgDJebr7TV92U7O/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page.html.twig_0SsFQmRBjYUgDJebr7TV92U7O/y-RDKJ_Beo1zFDNZCLQI2dPhxcCOGhxsimhqbGDA1Do.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page.html.twig_F0fCzdYQWD369gLZ9dE6h-2Wv/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_page.html.twig_F0fCzdYQWD369gLZ9dE6h-2Wv/y5do3dRYUlO5qHXbsY5A3c5FSfm2QCVoRX6qW4bhiWI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--call-to-action_zjQ8AcjhpTHwOXU00HJZr-00S/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--call-to-action_zjQ8AcjhpTHwOXU00HJZr-00S/i2rkeF5kqMdZ3QC9MamoQ_OW5IfLGfMYrHQsDjrFHEU.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--footer-minimal_SYC-ri5X9altuhDAmG6WQYCRp/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--footer-minimal_SYC-ri5X9altuhDAmG6WQYCRp/qgOkePpb8oXnd1YPHfHObhnev-O-pVrA_BhdaUphCaE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--header.html.tw_jbF_C9Rj4AeYNVqLO-x6JQyOF/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--header.html.tw_jbF_C9Rj4AeYNVqLO-x6JQyOF/qe_gyOWK2y8gj89xUipbi9QQAtZwKMLHRRCRPZqDRFo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--link.html.twig_48XufJin5-dCLUEKzaVLHemRv/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--link.html.twig_48XufJin5-dCLUEKzaVLHemRv/5v18F0bUAtGz1DrDUK7UO_vV97yImCO-Hc6gHYE1qg0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--slider-content_1AMcrPvl5QhS2hMUr1DdKXg6E/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--slider-content_1AMcrPvl5QhS2hMUr1DdKXg6E/i617BAVEEwPRC8bgqGspPFNfyAENfkUKVGoDa0Zc_U4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--static-image-i_Cawye8LFfb0N9zxEL4_iyJWn0/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph--static-image-i_Cawye8LFfb0N9zxEL4_iyJWn0/luBEcDJEWLqWbxuxZnKr3VQj_QngqcPAteTZo6hH8Ok.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph.html.twig_N_P0dsteFfuw3Ztz3i0S5KqL9/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_paragraph.html.twig_N_P0dsteFfuw3Ztz3i0S5KqL9/9Xl16o_6P9Y998b4XkHFYBOaHXgUfXP7IpTfezyHCxk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_region.html.twig_3SQaNMKekK_6QhoY1Ycnu1piS/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_region.html.twig_3SQaNMKekK_6QhoY1Ycnu1piS/LRb2lK-GcQ6iVHWMyRd0rHgz5ya7rRIzyo0NOqowu1M.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_region.html.twig_4ReE2XwefqkUJktiK7yN33sd4/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_region.html.twig_4ReE2XwefqkUJktiK7yN33sd4/jsGBXocv6JdRFLIcmZjb75TLCLNZII4ISPEYT_FuSaA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_select.html.twig_0XYXkEyeSWG7HZdWFhyWHmY44/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_select.html.twig_0XYXkEyeSWG7HZdWFhyWHmY44/Docf24Erh1LEckx1t3PKZrqgYBCUX1-B_af633DvXWs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_status-messages.html.twig_ax2deXaP4V_IwNDyRwKpO_T_G/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_status-messages.html.twig_ax2deXaP4V_IwNDyRwKpO_T_G/5nkVg7DFseDo0ysgyaCs1-orX5nReWpbN1lQCPpW_4c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_status-messages.html.twig_g6jxbUWNT3aG-h_qM_NH4jHQ8/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_status-messages.html.twig_g6jxbUWNT3aG-h_qM_NH4jHQ8/z5cV8wniqetqdQLSex7fhP6TeIeXp-OMehCzltffgJ4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_table.html.twig_UyrvJOOACr4K5gaWtF_HCIWSR/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_table.html.twig_UyrvJOOACr4K5gaWtF_HCIWSR/L5WPVCW6sJUmxxHcWtezh4zGo2YsXKWtE9mWQVol9MY.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_textarea.html.twig_R5QWIAFZS_O7l_fkrCtt7VXu8/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_textarea.html.twig_R5QWIAFZS_O7l_fkrCtt7VXu8/kOdybAIEVzD522cOAMm0HuEpmj1nMVc1bQcV2TrTyRM.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_toolbar.html.twig_CTDBal_vUI_X2UYsdzWZ4m4HU/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_toolbar.html.twig_CTDBal_vUI_X2UYsdzWZ4m4HU/FXg26oJLa5Mn2A_xTAE79IegNwpQi2EiGqQq4aZgGlc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_toolbar.html.twig_Y2ehKzQXVJnHxEGBuq6jFkTR6/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_toolbar.html.twig_Y2ehKzQXVJnHxEGBuq6jFkTR6/caa-pr8i-q3JqRKUPZYrAZUd1rpWszsE_zXh8akmzFU.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_username.html.twig_7c9uVyUniNAt4-gt9dH8Fz6eT/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_username.html.twig_7c9uVyUniNAt4-gt9dH8Fz6eT/8hgbbLH6gQu0EZGZP4qN2ohjS21Maa5mGpOxtwfG8tk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-mini-pager.html.twi_BVcOqV3LSJNJ5Jz8hXAFp4u9F/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-mini-pager.html.twi_BVcOqV3LSJNJ5Jz8hXAFp4u9F/CMPcGCR8KgCiA_DjO-Uzs37WwpGCqmbPSt6Tx2TfXuI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-field.html.twi_Ve5od5ak5ZtKXfTV1sYIf9Vu1/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-field.html.twi_Ve5od5ak5ZtKXfTV1sYIf9Vu1/YTsZt5sRAkMZVCCeM_FzVQ5oRPiSh46TG8JBK7F1tiU.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-fields.html.tw_mn2q_clnyfgPNW_4mlqzR0sRQ/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-fields.html.tw_mn2q_clnyfgPNW_4mlqzR0sRQ/vVi_FJVXzWsScmwpnv66X-gjK8yiMXvK31UsM5BxGOQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-unformatted.ht_F5jwk-RefDDB2_PhZgHqmHlTN/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view-unformatted.ht_F5jwk-RefDDB2_PhZgHqmHlTN/J-C-xUb2VS17x34FDd1OitcFlqO-UWQ9dIIkGDRwCQU.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view.html.twig_iLJznHwGN2gkxD3NDjfuAgmsF/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/60ff2c858a02d_views-view.html.twig_iLJznHwGN2gkxD3NDjfuAgmsF/vxcXvoia6Gqnb7VqjP1jyP081NFJoAKOC5Av85mHwo8.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/sepia/assets/css/helper.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/assets/css/helper.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/sepia.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/sepia.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,60 +71,59 @@
     <session id="-2052960671">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="714" />
-          <entry key="js" value="176" />
-          <entry key="twig" value="475" />
+          <entry key="css" value="1191" />
+          <entry key="js" value="178" />
+          <entry key="map" value="3" />
+          <entry key="theme" value="1" />
+          <entry key="twig" value="871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="714" />
-          <entry key="JavaScript" value="176" />
-          <entry key="Twig" value="475" />
+          <entry key="CSS" value="1191" />
+          <entry key="JavaScript" value="178" />
+          <entry key="PHP" value="1" />
+          <entry key="SourceMap" value="3" />
+          <entry key="Twig" value="871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="js" value="3" />
+          <entry key="css" value="3" />
+          <entry key="js" value="4" />
+          <entry key="map" value="1" />
           <entry key="theme" value="1" />
-          <entry key="twig" value="15" />
+          <entry key="twig" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="JavaScript" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="JavaScript" value="4" />
           <entry key="PHP" value="1" />
-          <entry key="Twig" value="15" />
+          <entry key="SourceMap" value="1" />
+          <entry key="Twig" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="10297" column="22" selection-start-line="10297" selection-start-column="22" selection-end-line="10297" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--front.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="233" column="686" selection-start-line="233" selection-start-column="686" selection-end-line="233" selection-end-column="686" />
+            <state relative-caret-position="255">
+              <caret line="12811" column="17" selection-start-line="12811" selection-start-column="17" selection-end-line="12811" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -285,31 +131,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/helper.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="637" column="33" selection-start-line="637" selection-start-column="33" selection-end-line="637" selection-end-column="33" />
+            <state relative-caret-position="208">
+              <caret line="570" column="44" selection-start-line="570" selection-start-column="44" selection-end-line="570" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--blog.html.twig">
+        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--front.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="538">
+              <caret line="218" column="56" selection-start-line="218" selection-start-column="56" selection-end-line="218" selection-end-column="56" />
+              <folding>
+                <element signature="e#1388#1394#1#HTML" expanded="true" />
+                <element signature="e#1835#1841#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--article.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="241">
+              <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/views-mini-pager.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <element signature="e#1344#1350#1#HTML" expanded="true" />
+                <element signature="e#1791#1797#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -317,17 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="46" column="18" selection-end-line="49" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/html.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+            <state relative-caret-position="391">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -335,17 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/custom/sepia/sepia.theme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
-              <caret line="134" column="83" selection-start-line="134" selection-start-column="83" selection-end-line="134" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14161">
-              <caret line="857" column="46" selection-start-line="857" selection-start-column="46" selection-end-line="857" selection-end-column="46" />
+            <state relative-caret-position="470">
+              <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -354,13 +203,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
-      <find>.tt-main-menu</find>
-      <find>body-content</find>
-      <find>body</find>
-      <find>sideba</find>
-      <find>sidebar</find>
-      <find>col-md-8</find>
       <find>media</find>
       <find>tt-heading-title</find>
       <find>tt-heading-inner</find>
@@ -384,11 +226,20 @@
       <find>bord</find>
       <find>page-section-inner</find>
       <find>.modal-title</find>
+      <find>.close</find>
+      <find>@modal-md</find>
+      <find>fa</find>
+      <find>html</find>
+      <find>.bg-transparent-7-dark</find>
+      <find>.modal-dialog</find>
+      <find>.tm-image</find>
     </findStrings>
     <dirStrings>
       <dir>C:\vagrant\vagrant-php7-debian8\gunmaster</dir>
       <dir>C:\vagrant\vagrant-php7-debian8\gunmaster\themes\custom</dir>
       <dir>C:\vagrant\vagrant-php7-debian8\nativepr\themes\custom\sepia</dir>
+      <dir>C:\vagrant\vagrant-php7-debian8\nativepr\themes</dir>
+      <dir>C:\vagrant\vagrant-php7-debian8\nativepr</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -408,12 +259,16 @@
         <option value="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--gallery-item.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--title-subtitle-text.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/sepia/templates/layout/html.html.twig" />
-        <option value="$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js" />
-        <option value="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--call-to-action.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/assets/vendor/bootstrap/css/bootstrap.min.css.map" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/sepia.theme" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/templates/layout/views-mini-pager.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/sepia/assets/css/helper.css" />
-        <option value="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" />
         <option value="$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--front.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" />
       </list>
     </option>
   </component>
@@ -520,6 +375,41 @@
             <path>
               <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
               <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="stable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="stable" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="stable" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -559,6 +449,70 @@
               <item name="custom" type="462c0819:PsiDirectoryNode" />
               <item name="sepia" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.min.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nativepr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nativepr" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="sepia" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -683,17 +637,19 @@
       <workItem from="1620656919639" duration="2737000" />
       <workItem from="1627305922623" duration="19219000" />
       <workItem from="1627384421300" duration="6744000" />
+      <workItem from="1627476772643" duration="4940000" />
+      <workItem from="1627532621603" duration="6500000" />
+      <workItem from="1627893182776" duration="9856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50214000" />
+    <option name="totallyTimeSpent" value="71510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -721,29 +677,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/themes/stable/templates/layout/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sepia.theme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/content/node--sections.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/field--entity-reference-revisions.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/field--paragraph--dd-slideshow.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--testimonial.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-958" />
@@ -908,20 +841,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/vendor/bootstrap/css/bootstrap.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret column="522620" selection-start-column="522620" selection-end-column="522620" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--article.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -932,45 +863,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/sepia.theme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="134" column="83" selection-start-line="134" selection-start-column="83" selection-end-line="134" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14161">
-          <caret line="857" column="46" selection-start-line="857" selection-start-column="46" selection-end-line="857" selection-end-column="46" />
+        <state relative-caret-position="1173">
+          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="46" column="18" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="e#1344#1350#1#HTML" expanded="true" />
+            <element signature="e#1791#1797#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/sepia.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/themes/stable/templates/views/views-mini-pager.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/views-mini-pager.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/helper.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="637" column="33" selection-start-line="637" selection-start-column="33" selection-end-line="637" selection-end-column="33" />
+        <state relative-caret-position="208">
+          <caret line="570" column="44" selection-start-line="570" selection-start-column="44" selection-end-line="570" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/vendor/bootstrap/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="10297" column="22" selection-start-line="10297" selection-start-column="22" selection-end-line="10297" selection-end-column="22" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--front.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="233" column="686" selection-start-line="233" selection-start-column="686" selection-end-line="233" selection-end-column="686" />
+        <state relative-caret-position="538">
+          <caret line="218" column="56" selection-start-line="218" selection-start-column="56" selection-end-line="218" selection-end-column="56" />
+          <folding>
+            <element signature="e#1388#1394#1#HTML" expanded="true" />
+            <element signature="e#1835#1841#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="12811" column="17" selection-start-line="12811" selection-start-column="17" selection-end-line="12811" selection-end-column="17" />
         </state>
       </provider>
     </entry>
