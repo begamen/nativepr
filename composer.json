@@ -24,7 +24,8 @@
         "drupal/lang_dropdown": "^2.0@beta",
         "drupal/languageicons": "^1.0@beta",
         "drupal/metatag": "^1.16",
-        "drupal/redirect": "^1.6"
+        "drupal/redirect": "^1.6",
+        "drupal/simple_gmap": "^3.0"
     },
     "conflict": {
         "drupal/drupal": "*"
