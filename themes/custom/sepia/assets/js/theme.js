@@ -842,6 +842,9 @@
 	$('[data-toggle="popover"]').popover({
 		html: true
 	});
+    $('a').click( function(e) {
+        $('.collapse').collapse('hide');
+    });
 	
     // INTRO
     var txt_shown = false;
