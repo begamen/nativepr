@@ -22,10 +22,10 @@ function sepia_preprocess_html(&$variables) {
    else {
         $variables['attributes']['class'][] = 'no-sidebar';
     }
-$variables['preloader'] = theme_get_setting('preloader');    
+$variables['preloader'] = theme_get_setting('preloader');
   if (!empty($variables['preloader'])) {
        $variables['attributes']['class'][] = 'animsition';
-   }  
+   }
 }
 
 function sepia_preprocess_page(&$variables) {
@@ -69,7 +69,7 @@ function sepia_preprocess_node(&$variables) {
 }
 
 function sepia_preprocess_menu(&$variables, $hook) {
-  if ($hook == 'menu__main') { 
+  if ($hook == 'menu__main') {
     // Get the current path.
     $current_path = \Drupal::request()->getRequestUri();
     $items = $variables['items'];
@@ -84,7 +84,7 @@ function sepia_preprocess_menu(&$variables, $hook) {
 }
 
 function sepia_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  
+
   // Name
   $form['name']['#weight'] = -1;
   $form['name']['#prefix'] = '<div class="row"><div class="col-lg-6 col-xs-12"><div class="form-group">';
@@ -108,7 +108,7 @@ function sepia_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\For
   $form['subject']['widget'][0]['value']['#attributes']['class'][] = 'form-control';
   $form['subject']['widget'][0]['value']['#attributes']['placeholder'][] = $form['subject']['widget'][0]['#title'].'*';
   unset($form['subject']['widget'][0]['value']['#title']);
- 
+
   // Message
   $form['message']['#weight'] = -5;
   $form['subject']['widget'][0]['#prefix'] = '<div class="row"><div class="col-lg-12"><div class="form-group">';
@@ -126,7 +126,7 @@ function sepia_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\For
  // $form['actions']['#suffix'] = '</div>';
   $form['actions']['submit']['#attributes']['class'][] = 'btn btn-primary btn-lg';
   $form['actions']['submit']['#attributes']['class'][] = 'margin-top-40';
-  
+
   // Preview
   $form['actions']['preview']['#access'] = FALSE;
   $form['actions']['#weight'] = 99;
@@ -134,7 +134,7 @@ function sepia_form_contact_message_feedback_form_alter(&$form, \Drupal\Core\For
   $form['actions']['#suffix'] = '</div>';
   $form['actions']['preview']['#attributes']['class'][] = 'btn btn-primary btn-lg';
   $form['actions']['preview']['#attributes']['class'][] = 'margin-top-40';
-  
+
 }
 
 function sepia_preprocess_paragraph__call_to_action(&$variables) {

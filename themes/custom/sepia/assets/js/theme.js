@@ -49,7 +49,7 @@
 		timeoutCountdown: 4000,
 		onLoadEvent: true,
 		browser: ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'], // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-		
+
 		overlay : false,
 		overlayClass : 'animsition-overlay-slide',
 		overlayParentElement : 'html',
@@ -75,7 +75,7 @@
 
 
 	// =========================================================================
-	// Smooth scrolling 
+	// Smooth scrolling
 	// Note: requires Easing plugin - http://gsgd.co.uk/sandbox/jquery/easing/
 	// =========================================================================
 
@@ -126,7 +126,7 @@
 
    function hasScrolled() {
       var st = $(window).scrollTop();
-     
+
       // Make sure they scroll more than delta
       if(Math.abs(lastScrollTop - st) <= delta)
          return;
@@ -146,8 +146,26 @@
       lastScrollTop = st;
    }
 
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
 
-   // Header Filled (cbpAnimatedHeader) 
+// Get the header
+  var header = document.getElementById("header");
+
+// Get the offset position of the navbar
+  var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
+
+  // Header Filled (cbpAnimatedHeader)
    // More info: http://tympanus.net/codrops/2013/06/06/on-scroll-animated-header/
    // ====================================
    var cbpAnimatedHeader = (function() {
@@ -168,7 +186,7 @@
 
       function scrollPage() {
          var sy = scrollY();
-         if ($(this).scrollTop() > 150){  
+         if ($(this).scrollTop() > 150){
             $('#header.header-fixed-top, #header.header-show-hide-on-scroll').addClass("header-filled");
          }
          else{
@@ -205,7 +223,7 @@
 
 
 	// =======================
-	// Main menu 
+	// Main menu
 	// =======================
 
 	// Add caret (little arrow down) if menu link contains dropdown
@@ -245,7 +263,7 @@
       $(this).toggleClass('tt-m-dropdown-open');
       $(this).prev('ul').stop().slideToggle(300);
    });
- 
+
 
    // Keeping sub-menus inside screen (useful if multi level sub-menus are used). Effect on large screens only!
    // More info: http://stackoverflow.com/questions/17985334/jquery-solution-for-keeping-dropdown-dropdown-inside-screen
@@ -257,7 +275,7 @@
 
          if (menupos.left + menu.width() > $(window).width()) {
             var newpos = -$(menu).width();
-            menu.css({ left: newpos });    
+            menu.css({ left: newpos });
          }
       });
    }
@@ -279,12 +297,12 @@
 			$(this).addClass('search-open');
 		});
 
-		return false;    
+		return false;
 	});
 	$('.tt-clobal-search-close').on('click', function() {
 		$('.tt-clobal-search').fadeOut(300, function() {
 			$(this).removeClass('search-open');
-		}); 
+		});
 	});
 
 
@@ -408,7 +426,7 @@
 
 	// if class "isotope" exist.
 	if ($('.isotope').length){
-		
+
 		// add overflow scroll to <html> (isotope items gaps fix).
 		if ( document.querySelector('body').offsetHeight > window.innerHeight ) {
 			document.documentElement.style.overflowY = 'scroll';
@@ -539,7 +557,7 @@
 
 		// Please read about gallery options here: http://sachinchoolur.github.io/lightGallery/docs/api.html
 
-		// lightgallery core 
+		// lightgallery core
 		selector: '.lg-trigger',
 		mode: 'lg-fade', // Type of transition between images ('lg-fade' or 'lg-slide').
 		height: '100%', // Height of the gallery (ex: '100%' or '300px').
@@ -597,7 +615,7 @@
 		// Vimeo video options
 		loadVimeoThumbnail: true, // You can automatically load thumbnails for vimeo videos from vimeo by setting loadYoutubeThumbnail true.
 		vimeoThumbSize: 'thumbnail_medium', // Thumbnail size for vimeo videos: 'thumbnail_large' or 'thumbnail_medium' or 'thumbnail_small'.
-		vimeoPlayerParams: { // Change vimeo player parameters: https://developer.vimeo.com/player/embedding#universal-parameters 
+		vimeoPlayerParams: { // Change vimeo player parameters: https://developer.vimeo.com/player/embedding#universal-parameters
 			byline : 1,
 			portrait : 1,
 			title: 1,
@@ -630,7 +648,7 @@
 	// =======================================================
 
 	// Disabled on mobile devices, because video background doesn't work on mobile devices (instead the background image is displayed).
-	if (!jQuery.browser.mobile) { 
+	if (!jQuery.browser.mobile) {
 		$(".youtube-bg").mb_YTPlayer();
 	}
 
@@ -720,7 +738,7 @@
 	});
 
 
-	
+
 	// ==================================
 	// Remove input placeholder on focus
 	// ==================================
@@ -740,11 +758,11 @@
 
 	// Rotate thumb-list items randomly (in gallery-list-carousel)
 	$(".thumb-list.tl-rotate > li").each( function() {
-		var rNum = (Math.random()*50)-25;  
+		var rNum = (Math.random()*50)-25;
 			$(this).css( {
 			'-webkit-transform': 'rotate('+rNum+'2deg)',
-			'-moz-transform': 'rotate('+rNum+'2deg)'  
-		});  
+			'-moz-transform': 'rotate('+rNum+'2deg)'
+		});
 	});
 
 
@@ -753,7 +771,7 @@
 	// Single gallery
 	// ==================================
 
-	// Gallery single carousel 
+	// Gallery single carousel
 	// ========================
 
 	// Make carousel info same width as ".gs-carousel-wrap" on small devices
@@ -845,7 +863,7 @@
     $('a').click( function(e) {
         $('.collapse').collapse('hide');
     });
-	
+
     // INTRO
     var txt_shown = false;
     $('.card').on("click",function() {
@@ -860,5 +878,50 @@
 
     setTimeout(function() {$('.card').click();}, 2000);
     setTimeout(function() {txt_shown = true;}, 4000);
+
+
+  if (window.location.href.indexOf("aktuality") > -1) {
+    $('.tt-menu-nav li a').each(function(){
+      var href = $(this).attr("href"); // Get current url
+      var newUrl = href; // Create new url
+      console.log(newUrl);
+      $(this).prop("href", window.location.origin + newUrl); // Set herf value
+    });
+  }
+
+  /*if ($(window).width() < 550) {
+      var element = $(".service");
+      window.addEventListener('scroll', function(e) {
+        if( isOverflown(element) ) { /!* Pass element id/class you want to check *!/
+          $(element).parent().addClass("isinscroll");
+        }
+        else {
+          $(element).parent().removeClass("isinscroll")
+        }
+      });
+  }
+
+  function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+  }
+
+  function isOnScreen(elem) {
+    // if the element doesn't exist, abort
+    if( elem.length == 0 ) {
+      return;
+    }
+    var $window = jQuery(window)
+    var viewport_top = $window.scrollTop()
+    var viewport_height = $window.height()
+    var viewport_bottom = viewport_top + viewport_height
+    var $elem = jQuery(elem)
+    var top = $elem.offset().top
+    var height = $elem.height()
+    var bottom = top + height
+
+    return (top >= viewport_top && top < viewport_bottom) ||
+      (bottom > viewport_top && bottom <= viewport_bottom) ||
+      (height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
+  }*/
 
 })(jQuery);

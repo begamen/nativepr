@@ -16,7 +16,7 @@
 14. Gallery list carousel
 15. Gallery thumbnails section
 16. Gallery single section
-17. Gallery single carousel 
+17. Gallery single carousel
 18. Gallery single section with sidebar
 19. Add to favorites button
 20. Lightgallery
@@ -24,7 +24,7 @@
 22. Prices section
 23. FAQ section
 24. Content carousel
-25. Project carousel 
+25. Project carousel
 26. Latest work section
 27. Latest news section
 28. More projects section
@@ -35,7 +35,7 @@
 33. Blog sidebar widgets
 34. Archive
 35. About me section
-36. Contact section 
+36. Contact section
 37. Page section
 38. Password protected section
 39. Page header
@@ -458,7 +458,7 @@ h6 {
 }
 
 
-/* tt-heading sizes 
+/* tt-heading sizes
 ==================== */
 
 
@@ -512,7 +512,6 @@ h6 {
 /* ------------------------------------------------------------- */
 
 #header {
-    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -523,6 +522,7 @@ h6 {
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    border-bottom: 1px solid #f4f3f3;
 }
 
 @media (max-width: 991px) {
@@ -650,7 +650,8 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
         top: 13px !important;
     }
     #logo img {
-        max-height: 34px !important;
+        max-height: 35px !important;
+      padding: 0rem;
     }
     #logo .logo-dark {
         display: none;
@@ -675,6 +676,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
 
 .tt-menu-collapse {
     margin-top: 8px;
+  z-index: 99;
 }
 
 @media (min-width: 992px) {
@@ -759,7 +761,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
 }
 
 
-/* Submenu 
+/* Submenu
 ============ */
 
 .tt-submenu-wrap {
@@ -905,7 +907,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
 }
 
 
-/* Submenu dark style 
+/* Submenu dark style
 ====================== */
 
 .tt-submenu-dark .tt-submenu {
@@ -931,7 +933,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
 }
 
 
-/* Menu aligns 
+/* Menu aligns
 =============== */
 
 
@@ -989,7 +991,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
 }
 
 
-/* Mobile menu toggle button 
+/* Mobile menu toggle button
 ============================= */
 
 #tt-m-menu-toggle-btn {
@@ -999,6 +1001,7 @@ body.tt-m-menu-open #header.header-show-hide-on-scroll {
     top: 20px;
     cursor: pointer;
     padding: 8px 25px 11px 0px;
+  right: 10px;
 }
 
 
@@ -1053,7 +1056,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* Mobile menu 
+/* Mobile menu
 ================ */
 
 @media (max-width: 991px) {
@@ -1241,7 +1244,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* tt dropdown 
+/* tt dropdown
 =============== */
 
 .tt-dropdown-wrap {
@@ -1354,7 +1357,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* tt clobal search 
+/* tt clobal search
 ==================== */
 
 .tt-clobal-search {
@@ -1472,7 +1475,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* Menu tools languages 
+/* Menu tools languages
 ======================== */
 
 .tt-tools-lang>a>img {
@@ -1494,7 +1497,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* Menu tools call to action button 
+/* Menu tools call to action button
 ==================================== */
 
 .tt-tools-button {
@@ -1545,7 +1548,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 }
 
 
-/* Intro variations 
+/* Intro variations
 ==================== */
 
 
@@ -1564,7 +1567,7 @@ body.tt-m-menu-open #tt-m-menu-toggle-btn span:after {
 .slideshow-intro {}
 
 
-/* Intro full height offset 
+/* Intro full height offset
 ============================ */
 
 #tt-intro .full-height-vh {
@@ -1591,7 +1594,7 @@ body.header-transparent-on #tt-intro .full-height-vh {
 }
 
 
-/* Intro caption 
+/* Intro caption
 ================= */
 
 #tt-intro .intro-caption {
@@ -1665,7 +1668,7 @@ body.header-transparent-on #tt-intro .full-height-vh {
 }
 
 
-/* Intro caption sizes 
+/* Intro caption sizes
 ======================= */
 
 
@@ -1805,7 +1808,7 @@ body.header-transparent-on #tt-intro .full-height-vh {
 }
 
 
-/* Intro caption positions 
+/* Intro caption positions
 =========================== */
 
 
@@ -1963,7 +1966,7 @@ body.header-transparent-on #tt-intro .full-height-vh {
 .isotope {}
 
 
-/* isotope top content 
+/* isotope top content
 ======================= */
 
 .isotope-top-content {
@@ -1996,7 +1999,7 @@ body.tt-boxed .isotope-wrap.tt-wrap .isotope-top-content {
 
 
 /* ================
-	isotope filter 
+	isotope filter
 =================== */
 
 .isotope-filter {}
@@ -2082,7 +2085,7 @@ ul.isotope-filter-links>li>a.active:after {
 }
 
 
-/* change isotope filter to button (use class "fi-to-button") 
+/* change isotope filter to button (use class "fi-to-button")
 ============================================================== */
 
 .isotope-filter.fi-to-button {
@@ -2340,7 +2343,7 @@ body.tt-boxed.page-header-on .isotope-wrap.tt-wrap .isotope.gutter-3 .isotope-to
 }
 
 
-/* move "fi-to-button" to bottom on small screens 
+/* move "fi-to-button" to bottom on small screens
 ================================================== */
 
 @media (max-width: 768px) {
@@ -2363,7 +2366,7 @@ body.tt-boxed.page-header-on .isotope-wrap.tt-wrap .isotope.gutter-3 .isotope-to
 
 
 /* ====================
-	isotope items wrap  
+	isotope items wrap
 ======================= */
 
 .isotope-items-wrap {
@@ -2420,7 +2423,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* isotope item 
+/* isotope item
 ================ */
 
 .isotope-item {
@@ -2438,7 +2441,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* isotope item heights 
+/* isotope item heights
 ======================== */
 
 
@@ -2649,7 +2652,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* isotope gutter (add more space between isotope items) 
+/* isotope gutter (add more space between isotope items)
 =========================================================*/
 
 
@@ -2686,7 +2689,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* isotope columns 
+/* isotope columns
 =================== */
 
 .isotope.col-1 .isotope-item {
@@ -2768,7 +2771,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* isotope columns on smaller screens 
+/* isotope columns on smaller screens
 ====================================== */
 
 @media (max-width: 1600px) {
@@ -2881,7 +2884,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* Gallery list item 
+/* Gallery list item
 ===================== */
 
 .gallery-list-item {
@@ -3178,7 +3181,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* Gallery list item alter styles 
+/* Gallery list item alter styles
 ================================== */
 
 
@@ -4010,7 +4013,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* Gallery list categories 
+/* Gallery list categories
 =========================== */
 
 .gl-categories {}
@@ -4032,7 +4035,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* Isotope items in gallery list section 
+/* Isotope items in gallery list section
 ========================================= */
 
 @media (max-width: 992px) {
@@ -4105,7 +4108,7 @@ body.iso-top-content-on .isotope .isotope-items-wrap {
 }
 
 
-/* Gallery list carousel full height offsets 
+/* Gallery list carousel full height offsets
 ============================================= */
 
 .gallery-list-carousel .owl-carousel.cc-height-full,
@@ -4162,7 +4165,7 @@ body.header-transparent-on .gl-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* Gallery list item inside "cc-item" (in case you want to use it) 
+/* Gallery list item inside "cc-item" (in case you want to use it)
 ====================================== */
 
 .gallery-list-carousel .gallery-list-item,
@@ -4392,7 +4395,7 @@ body.header-transparent-on .gl-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* gallery single item 
+/* gallery single item
 ======================= */
 
 .gallery-single-item {
@@ -4521,7 +4524,7 @@ body.header-transparent-on .gl-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* gallery single item styles 
+/* gallery single item styles
 ============================== */
 
 
@@ -4722,7 +4725,7 @@ body.tt-boxed.page-header-on .isotope-wrap.tt-wrap .isotope.gutter-3 .isotope-to
 }
 
 
-/* move gallery share button to bottom on small screens 
+/* move gallery share button to bottom on small screens
 ======================================================== */
 
 @media (max-width: 768px) {
@@ -4788,7 +4791,7 @@ ul.gallery-meta>li a:hover {
 .content-info-trigger a {}
 
 
-/* gallery single simple item 
+/* gallery single simple item
 ============================== */
 
 .gs-simple-item {
@@ -4822,7 +4825,7 @@ ul.gallery-meta>li a:hover {
 }
 
 
-/* Gallery single credits 
+/* Gallery single credits
 ========================== */
 
 .gallery-single-credits {}
@@ -4848,7 +4851,7 @@ ul.gallery-meta>li a:hover {
 }
 
 
-/* Gallery single nav 
+/* Gallery single nav
 ====================== */
 
 .gallery-single-nav {}
@@ -4911,7 +4914,7 @@ body.iso-tt-wrap-on #page-header .gallery-single-nav {
 
 
 /* ------------------------------------------------------------- *
- * Gallery single carousel 
+ * Gallery single carousel
 /* ------------------------------------------------------------- */
 
 .gallery-single-carousel {}
@@ -4942,7 +4945,7 @@ body.iso-tt-wrap-on #page-header .gallery-single-nav {
 }
 
 
-/* Gallery single full height carousel offsets 
+/* Gallery single full height carousel offsets
 =============================================== */
 
 .gallery-single-carousel .owl-carousel.cc-height-full,
@@ -4999,7 +5002,7 @@ body.header-transparent-on .gs-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* Gallery single carousel item 
+/* Gallery single carousel item
 ================================ */
 
 .gallery-single-carousel .cc-item {}
@@ -5045,7 +5048,7 @@ body.header-transparent-on .gs-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* gallery single carousel meta 
+/* gallery single carousel meta
 ================================ */
 
 .gallery-single-carousel ul.gallery-meta {
@@ -5102,7 +5105,7 @@ body.header-transparent-on .gs-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* gallery single carousel center 
+/* gallery single carousel center
 ================================== */
 
 
@@ -5124,7 +5127,7 @@ body.header-transparent-on .gs-carousel-wrap.no-padding .owl-carousel.cc-height-
 }
 
 
-/* Gallery single carousel info 
+/* Gallery single carousel info
 ================================ */
 
 .gs-carousel-info {
@@ -5287,7 +5290,7 @@ body.page-header-on .gallery-single-with-sidebar {
 }
 
 
-/* if isotope gutters enabled 
+/* if isotope gutters enabled
 ============================== */
 
 .gallery-single-with-sidebar .isotope.gutter-1 .isotope-items-wrap,
@@ -5459,7 +5462,7 @@ body.lg-on {
 .srs-inner {}
 
 
-/* Big search box 
+/* Big search box
 ================== */
 
 .big-search-box {
@@ -5515,7 +5518,7 @@ body.lg-on {
 }
 
 
-/* Search results items wrap 
+/* Search results items wrap
 ============================= */
 
 .sr-items-wrap {}
@@ -5584,7 +5587,7 @@ body.lg-on {
     display: block;
     width: 340px;
     height: 274px;
-    background-color: rgba(130, 130, 130, 0.1);
+    background-color: white;
     margin-right: 30px;
 }
 
@@ -5592,11 +5595,19 @@ body.lg-on {
     .sr-item-img {
         float: none;
         width: 100%;
-        height: auto;
-        padding-bottom: 60%;
         margin-right: 0;
         margin-bottom: 20px;
+      text-align: center;
     }
+}
+
+@media (max-width: 420px) {
+  .sr-item-img {
+    height: auto;
+  }
+  .sr-item-img img {
+    width: 100%;
+  }
 }
 
 .sr-item-img.glc-gallery {
@@ -5838,7 +5849,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* Price box featured 
+/* Price box featured
 ====================== */
 
 .price-box.price-box-featured {
@@ -5923,7 +5934,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* Prev/Next buttons 
+/* Prev/Next buttons
 ===================== */
 
 .owl-nav {
@@ -6013,7 +6024,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* Prev/Next nav buttons styles 
+/* Prev/Next nav buttons styles
 ================================ */
 
 
@@ -6063,7 +6074,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* Prev/Next nav buttons positions 
+/* Prev/Next nav buttons positions
 =================================== */
 
 
@@ -6238,7 +6249,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* Dots 
+/* Dots
 ======== */
 
 .owl-dots,
@@ -6370,7 +6381,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC item 
+/* CC item
 =========== */
 
 .owl-carousel .cc-item {
@@ -6385,7 +6396,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC item hover 
+/* CC item hover
 ================= */
 
 
@@ -6505,7 +6516,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC auto width image 
+/* CC auto width image
 ======================= */
 
 .owl-carousel .cc-auto-width-img {
@@ -6529,7 +6540,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC item heights 
+/* CC item heights
 =================== */
 
 .owl-carousel,
@@ -6601,7 +6612,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC item full height offsets (same as header height) 
+/* CC item full height offsets (same as header height)
 ======================================================= */
 
 .owl-carousel.cc-height-full,
@@ -6623,7 +6634,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC item inner 
+/* CC item inner
 ================= */
 
 .owl-carousel .cc-item-inner {
@@ -6633,7 +6644,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC caption 
+/* CC caption
 ============== */
 
 .owl-carousel .cc-caption {
@@ -6840,7 +6851,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC caption sizes 
+/* CC caption sizes
 =================== */
 
 
@@ -6932,7 +6943,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* CC caption positions 
+/* CC caption positions
 ======================== */
 
 
@@ -7064,7 +7075,7 @@ ul.sr-item-attr>li a:hover {
 }
 
 
-/* owl elements 
+/* owl elements
 ================ */
 
 
@@ -7293,7 +7304,7 @@ body.tt-boxed .blog-list-inner.tt-wrap {
 }
 
 
-/* blog list item 
+/* blog list item
 ================== */
 
 .blog-list-item {
@@ -7336,7 +7347,7 @@ body.tt-boxed .blog-list-inner.tt-wrap {
 }
 
 
-/* blog list item info 
+/* blog list item info
 ======================= */
 
 .bl-item-info {
@@ -7536,7 +7547,7 @@ ul.bl-item-attr .favorite-btn {
 .bl-item-comments-count {}
 
 
-/* blog list item if isotope "col-1" is enabled 
+/* blog list item if isotope "col-1" is enabled
 ================================================ */
 
 #blog-list-section .isotope.col-1 .isotope-items-wrap {
@@ -7591,7 +7602,7 @@ ul.bl-item-attr .favorite-btn {
 }
 
 
-/* blog list simple 
+/* blog list simple
 ==================== */
 
 #blog-list-section.blog-list-simple {
@@ -7657,7 +7668,7 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 }
 
 
-/* Blog single post 
+/* Blog single post
 ==================== */
 
 .blog-single-post {}
@@ -7730,7 +7741,9 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 
 /* blog single post content */
 
-.post-content {}
+.post-content {
+  padding: 2rem;
+}
 
 .post-content .single-post-image {
     margin: 30px 0;
@@ -7759,7 +7772,7 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 }
 
 
-/* Blog single attributes 
+/* Blog single attributes
 ============================ */
 
 .blog-single-attributes {
@@ -7986,7 +7999,7 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 }
 
 
-/* Blog single nav 
+/* Blog single nav
 =================== */
 
 .blog-single-nav {
@@ -8042,7 +8055,7 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 }
 
 
-/* Blog single related posts 
+/* Blog single related posts
 ============================= */
 
 .related-posts {
@@ -8126,7 +8139,7 @@ body.tt-boxed .blog-single-inner.tt-wrap {
 }
 
 
-/* Blog single post comments 
+/* Blog single post comments
 ============================= */
 
 #blog-post-comments {
@@ -8804,7 +8817,7 @@ body.tt-boxed #about-me-section .about-me-inner.tt-wrap {
 }
 
 
-/* About me simple 
+/* About me simple
 =================== */
 
 #about-me-section.about-me-simple {
@@ -8828,7 +8841,7 @@ body.tt-boxed #about-me-section .about-me-inner.tt-wrap {
 
 
 /* ------------------------------------------------------------- *
- *  Contact section 
+ *  Contact section
 /* ------------------------------------------------------------- */
 
 #contact-section {
@@ -8861,7 +8874,7 @@ body.tt-boxed .contact-section-inner.tt-wrap .full-height-vh {
 }
 
 
-/* Contact info 
+/* Contact info
 ================= */
 
 .contact-info-wrap {
@@ -8903,7 +8916,7 @@ body.tt-boxed .contact-section-inner.tt-wrap .full-height-vh {
 }
 
 
-/* Contact simple 
+/* Contact simple
 ================== */
 
 .contact-simple {}
@@ -8981,7 +8994,7 @@ body.tt-boxed #page-section .page-section-inner.tt-wrap {
 }
 
 
-/* Page classic 
+/* Page classic
 ================ */
 
 .page-classic {}
@@ -9040,7 +9053,7 @@ body.tt-boxed #page-section.page-classic .page-section-inner.tt-wrap {
 }
 
 
-/* Password protected full height offset 
+/* Password protected full height offset
 ========================================= */
 
 #password-protected-section .full-height-vh {
@@ -9067,7 +9080,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Post password 
+/* Post password
 ================= */
 
 .tt-post-password {
@@ -9134,7 +9147,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Page header caption 
+/* Page header caption
 ======================= */
 
 .page-header-caption {
@@ -9222,7 +9235,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Page header more info trigger 
+/* Page header more info trigger
 ================================= */
 
 .ph-more-info-trigger {
@@ -9285,7 +9298,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Page header caption sizes 
+/* Page header caption sizes
 ============================= */
 
 .page-header-caption.ph-caption-xs .page-header-title {
@@ -9321,7 +9334,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Page header aligns 
+/* Page header aligns
 ====================== */
 
 
@@ -9366,7 +9379,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* If page header contains background image 
+/* If page header contains background image
 ============================================ */
 
 .page-header-image {
@@ -9408,7 +9421,7 @@ body.header-transparent-on #password-protected-section .full-height-vh {
 }
 
 
-/* Page header sizes 
+/* Page header sizes
 ====================== */
 
 #page-header.ph-xs .page-header-inner {
@@ -9466,7 +9479,7 @@ body.header-transparent-on #page-header.ph-xlg .page-header-inner {
 }
 
 
-/* If page header contains a slideshow 
+/* If page header contains a slideshow
 ======================================= */
 
 #page-header.slideshow .cc-item {
@@ -9485,7 +9498,7 @@ body.header-transparent-on #page-header.ph-xlg .page-header-inner {
 .split-box {}
 
 
-/* Split box content 
+/* Split box content
 ==================== */
 
 .split-box-content {
@@ -9529,7 +9542,7 @@ body.header-transparent-on #page-header.ph-xlg .page-header-inner {
 }
 
 
-/* Split box image 
+/* Split box image
 =================== */
 
 .split-box-image {}
@@ -9966,7 +9979,7 @@ blockquote small {
 }
 
 
-/* Testimonial item 
+/* Testimonial item
 ==================== */
 
 .testimonial-item {
@@ -10380,7 +10393,7 @@ body.modal-open {
 }
 
 
-/* Modal position senter 
+/* Modal position senter
 ========================= */
 
 @media (min-width: 768px) {
@@ -10456,7 +10469,7 @@ body.modal-open {
 }
 
 
-/* Modal sidebar style 
+/* Modal sidebar style
 ======================== */
 
 .modal.modal-left,
@@ -10542,7 +10555,7 @@ body.modal-open {
 }
 
 
-/* modal share 
+/* modal share
 =============== */
 
 .modal-share {
@@ -10616,7 +10629,7 @@ body.modal-open {
 }
 
 
-/* Button styles 
+/* Button styles
 ================= */
 
 
@@ -11324,7 +11337,7 @@ body.modal-open {
 }
 
 
-/* Button with dropdown 
+/* Button with dropdown
 ======================== */
 
 .btn-group>.btn+.dropdown-toggle {
@@ -11334,7 +11347,7 @@ body.modal-open {
 }
 
 
-/* Button social 
+/* Button social
 ================= */
 
 .btn-social {
@@ -11686,7 +11699,7 @@ body.modal-open {
 }
 
 
-/* Button close 
+/* Button close
 ================= */
 
 .tt-close-btn {
@@ -11747,7 +11760,7 @@ body.modal-open {
 }
 
 
-/* Button rounded 
+/* Button rounded
 ================== */
 
 .btn-rounded {
@@ -11787,7 +11800,7 @@ body.modal-open {
 }
 
 
-/* Button sizes 
+/* Button sizes
 ================ */
 
 .btn-group-xs>.btn,
@@ -12266,7 +12279,7 @@ body.tt-boxed #footer.footer-minimal .footer-container {
 }
 
 
-/* Menu tools call to action button 
+/* Menu tools call to action button
 ==================================== */
 
 li.button-link a {
@@ -12386,7 +12399,7 @@ li.button-link:hover a {
 .block-content {
 margin-bottom: 50px;
 overflow: hidden;
-}   
+}
 */
 
 @media (max-width: 767px) {
@@ -12439,7 +12452,7 @@ font-size: 13px;
 color: #BBB;
 }
 #blog-post-comments .media-body ul.links.inline li a:hover {
-color: #88cdd3;    
+color: #88cdd3;
 }
 #post-comment-form {margin-bottom: 60px;}
 
@@ -12789,7 +12802,6 @@ h4.label {color: #333 !important;}
     transition: all 0.5s;
     font-size: 1.8rem;
     overflow: hidden;
-    bottom: 15px;
 }
 
 .service p {
@@ -12828,6 +12840,7 @@ h4.label {color: #333 !important;}
     transition: all 0.5s;
     font-size: 1.5rem;
     margin-top: 30px;
+  text-align: center;
 }
 
 .brd:hover {
@@ -13082,15 +13095,130 @@ h1 {
     transition: all 0.5s;
     cursor: pointer;
 }
-.references a[aria-expanded="true"] .col-sm-6 {
-    background: white;
-    filter: invert(1);
-    transition: all 0.5s;
-    cursor: pointer;
-}
+
 .references .col-sm-6:hover {
     background: white;
     filter: invert(1);
     transition: all 0.5s;
     cursor: pointer;
+}
+
+.services a[aria-expanded="true"] .col-sm-6 {
+  background: black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.services .col-sm-6:hover {
+  background: black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.services a {
+  color: white;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+[id] {
+  scroll-margin-top: 6em
+}
+
+.intro5 {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 4rem;
+}
+@media (max-width: 770px) {
+  .brd {
+    padding: 0px;
+    color: #6a6d71;
+    transition: all 0.5s;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+  }
+  #logo {
+    left: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .intro5 {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 3rem;
+  }
+  .brd {
+    padding: 0px;
+    color: #6a6d71;
+    transition: all 0.5s;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .brd img {
+    height: 30px;
+    margin-bottom: 10px;
+    filter: grayscale(1);
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .about-txt {
+    padding: 2rem;
+  }
+  .contact-left, .contact-right {
+    padding: 0rem;
+  }
+  .first {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .nmbr, .nmbr2 {
+    font-size: 2rem;
+    font-weight: bold;
+
+  }
+}
+
+.isinscroll {
+  background: black !important;
+}
+
+.mobile-only {
+ display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+  body.tt-boxed .tt-wrap {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+@media (max-width: 550px) {
+
 }

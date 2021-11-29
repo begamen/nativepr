@@ -1,0 +1,517 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+{{ title_prefix }}
+{% if label %}
+<h3 class="block-title">{{ label }}</h3>
+{% endif %}
+{{ title_suffix }}
+<div class="block-inner">
+  <p class="text-align-center uprclas">&nbsp;</p>
+
+  <div class="services container-fluid" id="services">
+    <h3 class="block-title text-align-center">Široká nabídka služeb</h3>
+
+    <p class="margin-helper text-align-center">Pomáháme Vám správně a efektivně komunikovat. Navrhneme optimální řešení pro Vaše komunikační potřeby a zajistíme jeho perfektní realizaci.</p>
+
+    <div class="mobile-only">
+      <div class="row">
+
+        <a role="button" data-toggle="collapse" href="#msx1" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/chat-icon.png" />
+              <p>Komunikační strategie<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx1">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Vytváříme účinné strategie k dosažení Vašich komunikačních cílů</h4>
+              <p>Rozdílné komunikační cíle vyžadují rozdílná řešení. Dobré komunikační strategie pomáhají prodávat,umožňují získat a udržet špičkové zaměstnance, nebo třeba snížit riziko konfliktů se zájmovými skupinami, které mají na Vaše podnikání vliv. Na základě obchodních a podnikatelských záměrů pomáháme našim klientům definovat jejich komunikační cíle,analyzovat prostředí i cílové skupiny pro komunikaci  a navrhujeme vhodné strategie. </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx2" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/fleshlight-icon.png" />
+              <p>Komunikační kampaně<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx2">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Vytváříme a realizujeme komunikační kampaně přesně na míru Vašim potřebám</h4>
+              <p>Jsme lídrem v koncipování a realizaci komunikačních kampaní, které mění postoje a chování veřejnosti. Ať už je cílem Vaší komunikace stimulace celkové poptávky, změna chování zákazníků nebo třeba získání veřejné podpory  pro úpravu legislativy regulující Váš sektor podnikání, navrhneme Vám celkový koncept kampaně, design jejích jednotlivých prvků a zajistíme realizaci všech kreativních řešení.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx3" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/message-icon.png" />
+              <p>Content management<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx3">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Vyprávíme příběhy našich zákazníků</h4>
+              <p>Vyprávění silných příběhů je nejlepším způsobem, jak si v dnešním přeinformovaném světě získat skutečnou pozornost lidí. Dobrý příběh vytváří emocionální zapojení a vede spotřebitele k zaujetí stanoviska a následné akci. Hledáme mimořádné příběhy. Hledáme cesty a aktivity, jak je co nejlépe vytěžit pro naše zákazníky. Vyprávíme příběhy prostřednictvím všech relevantních kanálů a pomáháme organizacím,aby se příběh stal nedílnou součástí jejich života.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx4" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/fir_kom.png" />
+              <p>Firemní komunikace<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx4">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Pomáháme firmám budovat a rozvíjet vztahy se všemi skupinami partnerů a decision makerů</h4>
+              <p>Budování a rozvoj vztahů s různými externími stakeholdery vyžadují pochopení jejich zájmů a očekávání a následnou Maximalizujeme přínosy vnějších vztahů tím, že pomáháme a vedou rozvoj strategií a akčních plánů, od informačních kampaní až po řízení vztahů.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+
+        <a role="button" data-toggle="collapse" href="#msx5" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
+              <p>Krizová komunikace<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx5">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Pomáháme klientům zvládnout krizovou situaci s minimálními dopady na jejich pověst</h4>
+              <p>Špatně řízená krize může zničit roky budovanou pověst vaší organizace za jediný den. Pomáháme klientům předcházet krizím, připravovat se na ně, reagovat na ně a komunikovat o nich. S našimi klienty jsme úspěšně prošli již desítkami větších či menších krizových situací a víme, jak je v rovině komunikace správně řešit.  Máme řadu zkušeností s přípravou krizových komunikačních plánů, tréninkem managementu či organizováním krizových simulací. A když ke krizové situaci skutečně dojde, pomáháme ji zvládat v reálném čase prostřednictvím naší 24/7 krizové linky a zkušeného krizového týmu, který je na tento typ práce speciálně vyškolený a připravený.
+                <br>
+                Potřebujete pomoc právě teď? Volejte naší 24/7 krizovou linku: +420603574650 </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx6" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/rep_rizik.png" />
+              <p>Reputation management<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx6">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Budování pověsti a řízení reputačních rizik </h4>
+              <p>V době sociálních sítí, zvýšené angažovanosti jejich uživatelů  a extrémně rychlého sdílení informací mezi lidmi se otázka dobré pověsti  stala významnější, než kdykoliv předtím. Vaše pověst dnes může výrazně pomoci k dosažení obchodních cílů, nebo  jejich naplnění naopak  zcela znemožnit. Máme širokou škálu služeb, které vám pomohou při budování vaší reputace na místní i celorepublikové úrovni. Pro naše zákazníky navrhujeme a realizujeme dlouhodbé komunikační programy zaměřené na posílení dobré pověsti a omezení reputačních rizik. V těchto programech integrujeme tradiční média i sociální sítě. Pomůžeme Vám identifikovat hlavní opinion makery a navázat s nimi nejvhodnější způsob komunikace. </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx7" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
+              <p>Media relations<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx7">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Pomáháme klientům efektivně využívat média pro jejich komunikační potřeby</h4>
+              <p>Zajišťujeme efektivní prezentaci v hromadných sdělovacích prostředcích a budujeme dlouhodobé vztahy s příslušnými médii. Vytváříme optimální mediální přítomnost s ohledem na firemní cíle.  Zvyšujeme porozumění o produktech,službách i samotné firmě. Hledáme zajímavá témata, navrhujeme a realizujeme konkrétní formy prezentace, pomáháme vytvářet a vyprávět příběhy firem a jejich výrobků</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <a role="button" data-toggle="collapse" href="#msx8" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/battery-icon.png" />
+              <p>Produktová komunikace<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+        <div class="row b-b">
+        <div class="collapse" id="msx8">
+          <div class="well-med">
+            <div class="inner-wl">
+              <h4>Zajistíme, aby zákazníci znali a preferovali vaše výrobky či služby</h4>
+              <p>Spotřebitelé jsou zahlceni stále větším množstvím méně originálních reklamních sdělení, a nejen proto účinnost klasické reklamy klesá. K zajištění stejného účinku jsou firmy nuceny vynakládat stále větší náklady na nákup médií. My disponujeme řadou nástrojů, které levněji a kreativněji budují vztah spotřebitele ke konkrétní značce. Umíme vytvořit dlouhodobý příběh, který oslovuje zákazníky přímou komunikací, prostřednictvím internetu, a má potenciál dostat se i do relevantních médií. Při vytváření produktových PR strategií jsme zvyklí úzce spolupracovat s agenturami, které zajišťují další složky marketingového mixu.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+     <div class="row">
+
+        <a role="button" data-toggle="collapse" href="#msx9" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/peoples-icon.png" />
+              <p>HR Marketing a Employer Branding<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+       <div class="row b-b">
+       <div class="collapse" id="msx9">
+         <div class="well-med">
+           <div class="inner-wl">
+             <h4>Budování značky atraktivního zaměstnavatele (Employer Branding)</h4>
+             <p>Budování značky zaměstnavatele a nábor kvalitních zaměstnanců jsou tématem číslo jedna pro většinu našich klientů. Firmám pomáháme šířit jejich dobrou pověst směrem k potenciálním zaměstnancům – ať už formou budování kariérních stránek, komunikací v médiích, online prezentací či vhodným využitím sociálních sítí. Řešíme, jak zaměstnance motivovat a aktivně je zapojovat do šíření dobré pověsti firem, protože i oni jsou hlavními nositeli značky dobrého zaměstnavatele.</p>
+           </div>
+         </div>
+       </div>
+       </div>
+
+        <a role="button" data-toggle="collapse" href="#msx10" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/home-icon.png" />
+              <p>Interní komunikace<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+       <div class="row b-b">
+       <div class="collapse" id="msx10">
+         <div class="well-med">
+           <div class="inner-wl">
+             <h4>Pomůžeme zvýšit loajalitu a angažovanost vašich zaměstnanců</h4>
+             <p>Dobří manažeři věnují pozornost tomu, aby zaměstnanci byli na firmu hrdí a aby fámy a klepy nebyly hlavním zdrojem informovanosti. Naše PR agentura má za sebou celou řadu úspěšných projektů interní komunikace pro nejrůznější typy společností. Vytvoříme komplexní strategii interní komunikace vaší společnosti, zrealizujeme interní průzkumy názorů, pomůžeme vám s vydáváním vašeho zaměstnaneckého časopisu, navrhneme obsah intranetu či realizujeme celou řadu motivačních soutěží pro vaše zaměstnance.</p>
+           </div>
+         </div>
+       </div>
+       </div>
+
+        <a role="button" data-toggle="collapse" href="#msx11" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/globe-icon.png" />
+              <p>Online komunikace<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+       <div class="row b-b">
+       <div class="collapse" id="msx11">
+         <div class="well-med">
+           <div class="inner-wl">
+             <h4>S námi budete na internetu jako doma</h4>
+             <p>Internet je největší revolucí v oblasti komunikace od vynálezu knihtisku. Mít oficiální webové stránky dnes již nestačí, čím dál větší důraz je kladen na účinný dialog se zákazníky. Nástroje v podobě sociálních sítí, blogů a diskusních fór proměnily konzumenty reklamy v angažované mluvčí,kteří dnes již nejsou pouze pasivními příjemci sdělení, ale naopak aktivně navzájem ovlivňují své chování a názory. Chcete-li se prosadit ve světě on-line komunikace, měli byste svým klientům nejen naslouchat, ale i s nimi aktivně komunikovat.  Naši specialisté na digitální marketing vám pomohou doručit sdělení té správné cílové skupině prostřednictvím správného média a v ten pravý čas. Zároveň se postaráme o vaši reputaci napříč všemi on-line kanály. Pomůžeme s optimalizací vašich webových stránek pro vyhledávače (SEO). Klíčovými parametry pro navrhované marketingové strategie jsou pro nás vždy přesné zacílení, efektivní komunikace a měřitelný výsledek v relevantním čase.</p>
+           </div>
+         </div>
+       </div>
+       </div>
+
+        <a role="button" data-toggle="collapse" href="#msx12" aria-expanded="false" aria-controls="collapseExample">
+          <div class="col-sm-6 col-md-3">
+            <div class="service"><img src="/sites/default/files/rf/hand-icon.png" />
+              <p>Mediální trénink<span class="but">&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+
+       <div class="row b-b">
+       <div class="collapse" id="msx12">
+         <div class="well-med">
+           <div class="inner-wl">
+             <h4>Naučíme vás komunikovat s médii</h4>
+             <p>Média jsou důležitým nástrojem firemní komunikace a mají zásadní vliv na to, zda veřejnost firmu zná a co si o ní myslí. Pro naše klienty jsme v minulosti zorganizovali desítky tisíc kontaktů se zástupci médií, ať už se jednalo o tiskové zprávy, odborné články, rozhovory či tiskové konference. Každý zástupce společnosti, který ji reprezentuje v médiích, by měl vědět, jak média fungují a jak s nimi co nejlépe a efektivně komunikovat. Prostřednictvím teoretického i praktického tréninku vás naučíme, jak novináři předat nejlépe vaše sdělení, jak reagovat na ne vždy příjemné dotazy médií a jak vytěžit z komunikace s médii pro vaši společnost maximum.</p>
+           </div>
+         </div>
+       </div>
+       </div>
+
+      </div>
+
+    </div>
+
+    <div class="desktop-only">
+    <div class="row">
+
+      <a role="button" data-toggle="collapse" href="#sx1" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/chat-icon.png" />
+            <p>Komunikační strategie<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx2" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/fleshlight-icon.png" />
+            <p>Komunikační kampaně<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx3" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/message-icon.png" />
+            <p>Content management<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+    <a role="button" data-toggle="collapse" href="#sx4" aria-expanded="false" aria-controls="collapseExample">
+      <div class="col-sm-6 col-md-3">
+        <div class="service"><img src="/sites/default/files/rf/fir_kom.png" />
+          <p>Firemní komunikace<span class="but">&nbsp;</span></p>
+        </div>
+      </div>
+    </a>
+    </div>
+
+    <div class="row b-b">
+
+      <div class="collapse" id="sx1">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Vytváříme účinné strategie k dosažení Vašich komunikačních cílů</h4>
+            <p>Rozdílné komunikační cíle vyžadují rozdílná řešení. Dobré komunikační strategie pomáhají prodávat,umožňují získat a udržet špičkové zaměstnance, nebo třeba snížit riziko konfliktů se zájmovými skupinami, které mají na Vaše podnikání vliv. Na základě obchodních a podnikatelských záměrů pomáháme našim klientům definovat jejich komunikační cíle,analyzovat prostředí i cílové skupiny pro komunikaci  a navrhujeme vhodné strategie. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx2">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Vytváříme a realizujeme komunikační kampaně přesně na míru Vašim potřebám</h4>
+            <p>Jsme lídrem v koncipování a realizaci komunikačních kampaní, které mění postoje a chování veřejnosti. Ať už je cílem Vaší komunikace stimulace celkové poptávky, změna chování zákazníků nebo třeba získání veřejné podpory  pro úpravu legislativy regulující Váš sektor podnikání, navrhneme Vám celkový koncept kampaně, design jejích jednotlivých prvků a zajistíme realizaci všech kreativních řešení.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx3">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Vyprávíme příběhy našich zákazníků</h4>
+            <p>Vyprávění silných příběhů je nejlepším způsobem, jak si v dnešním přeinformovaném světě získat skutečnou pozornost lidí. Dobrý příběh vytváří emocionální zapojení a vede spotřebitele k zaujetí stanoviska a následné akci. Hledáme mimořádné příběhy. Hledáme cesty a aktivity, jak je co nejlépe vytěžit pro naše zákazníky. Vyprávíme příběhy prostřednictvím všech relevantních kanálů a pomáháme organizacím,aby se příběh stal nedílnou součástí jejich života.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx4">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Pomáháme firmám budovat a rozvíjet vztahy se všemi skupinami partnerů a decision makerů</h4>
+            <p>Budování a rozvoj vztahů s různými externími stakeholdery vyžadují pochopení jejich zájmů a očekávání a následnou Maximalizujeme přínosy vnějších vztahů tím, že pomáháme a vedou rozvoj strategií a akčních plánů, od informačních kampaní až po řízení vztahů.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <a role="button" data-toggle="collapse" href="#sx5" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
+            <p>Krizová komunikace<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx6" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/rep_rizik.png" />
+            <p>Reputation management<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx7" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
+            <p>Media relations<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx8" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/battery-icon.png" />
+            <p>Produktová komunikace<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="row b-b">
+
+      <div class="collapse" id="sx5">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Pomáháme klientům zvládnout krizovou situaci s minimálními dopady na jejich pověst</h4>
+           <p>Špatně řízená krize může zničit roky budovanou pověst vaší organizace za jediný den. Pomáháme klientům předcházet krizím, připravovat se na ně, reagovat na ně a komunikovat o nich. S našimi klienty jsme úspěšně prošli již desítkami větších či menších krizových situací a víme, jak je v rovině komunikace správně řešit.  Máme řadu zkušeností s přípravou krizových komunikačních plánů, tréninkem managementu či organizováním krizových simulací. A když ke krizové situaci skutečně dojde, pomáháme ji zvládat v reálném čase prostřednictvím naší 24/7 krizové linky a zkušeného krizového týmu, který je na tento typ práce speciálně vyškolený a připravený.
+             <br>
+             Potřebujete pomoc právě teď? Volejte naší 24/7 krizovou linku: +420603574650 </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx6">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Budování pověsti a řízení reputačních rizik </h4>
+            <p>V době sociálních sítí, zvýšené angažovanosti jejich uživatelů  a extrémně rychlého sdílení informací mezi lidmi se otázka dobré pověsti  stala významnější, než kdykoliv předtím. Vaše pověst dnes může výrazně pomoci k dosažení obchodních cílů, nebo  jejich naplnění naopak  zcela znemožnit. Máme širokou škálu služeb, které vám pomohou při budování vaší reputace na místní i celorepublikové úrovni. Pro naše zákazníky navrhujeme a realizujeme dlouhodbé komunikační programy zaměřené na posílení dobré pověsti a omezení reputačních rizik. V těchto programech integrujeme tradiční média i sociální sítě. Pomůžeme Vám identifikovat hlavní opinion makery a navázat s nimi nejvhodnější způsob komunikace. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx7">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Pomáháme klientům efektivně využívat média pro jejich komunikační potřeby</h4>
+            <p>Zajišťujeme efektivní prezentaci v hromadných sdělovacích prostředcích a budujeme dlouhodobé vztahy s příslušnými médii. Vytváříme optimální mediální přítomnost s ohledem na firemní cíle.  Zvyšujeme porozumění o produktech,službách i samotné firmě. Hledáme zajímavá témata, navrhujeme a realizujeme konkrétní formy prezentace, pomáháme vytvářet a vyprávět příběhy firem a jejich výrobků</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx8">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Zajistíme, aby zákazníci znali a preferovali vaše výrobky či služby</h4>
+            <p>Spotřebitelé jsou zahlceni stále větším množstvím méně originálních reklamních sdělení, a nejen proto účinnost klasické reklamy klesá. K zajištění stejného účinku jsou firmy nuceny vynakládat stále větší náklady na nákup médií. My disponujeme řadou nástrojů, které levněji a kreativněji budují vztah spotřebitele ke konkrétní značce. Umíme vytvořit dlouhodobý příběh, který oslovuje zákazníky přímou komunikací, prostřednictvím internetu, a má potenciál dostat se i do relevantních médií. Při vytváření produktových PR strategií jsme zvyklí úzce spolupracovat s agenturami, které zajišťují další složky marketingového mixu.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <a role="button" data-toggle="collapse" href="#sx9" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/peoples-icon.png" />
+            <p>HR Marketing a Employer Branding<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx10" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/home-icon.png" />
+            <p>Interní komunikace<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx11" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/globe-icon.png" />
+            <p>Online komunikace<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a role="button" data-toggle="collapse" href="#sx12" aria-expanded="false" aria-controls="collapseExample">
+        <div class="col-sm-6 col-md-3">
+          <div class="service"><img src="/sites/default/files/rf/hand-icon.png" />
+            <p>Mediální trénink<span class="but">&nbsp;</span></p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="row b-b">
+
+      <div class="collapse" id="sx9">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Budování značky atraktivního zaměstnavatele (Employer Branding)</h4>
+            <p>Budování značky zaměstnavatele a nábor kvalitních zaměstnanců jsou tématem číslo jedna pro většinu našich klientů. Firmám pomáháme šířit jejich dobrou pověst směrem k potenciálním zaměstnancům – ať už formou budování kariérních stránek, komunikací v médiích, online prezentací či vhodným využitím sociálních sítí. Řešíme, jak zaměstnance motivovat a aktivně je zapojovat do šíření dobré pověsti firem, protože i oni jsou hlavními nositeli značky dobrého zaměstnavatele.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx10">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Pomůžeme zvýšit loajalitu a angažovanost vašich zaměstnanců</h4>
+            <p>Dobří manažeři věnují pozornost tomu, aby zaměstnanci byli na firmu hrdí a aby fámy a klepy nebyly hlavním zdrojem informovanosti. Naše PR agentura má za sebou celou řadu úspěšných projektů interní komunikace pro nejrůznější typy společností. Vytvoříme komplexní strategii interní komunikace vaší společnosti, zrealizujeme interní průzkumy názorů, pomůžeme vám s vydáváním vašeho zaměstnaneckého časopisu, navrhneme obsah intranetu či realizujeme celou řadu motivačních soutěží pro vaše zaměstnance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx11">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>S námi budete na internetu jako doma</h4>
+            <p>Internet je největší revolucí v oblasti komunikace od vynálezu knihtisku. Mít oficiální webové stránky dnes již nestačí, čím dál větší důraz je kladen na účinný dialog se zákazníky. Nástroje v podobě sociálních sítí, blogů a diskusních fór proměnily konzumenty reklamy v angažované mluvčí,kteří dnes již nejsou pouze pasivními příjemci sdělení, ale naopak aktivně navzájem ovlivňují své chování a názory. Chcete-li se prosadit ve světě on-line komunikace, měli byste svým klientům nejen naslouchat, ale i s nimi aktivně komunikovat.  Naši specialisté na digitální marketing vám pomohou doručit sdělení té správné cílové skupině prostřednictvím správného média a v ten pravý čas. Zároveň se postaráme o vaši reputaci napříč všemi on-line kanály. Pomůžeme s optimalizací vašich webových stránek pro vyhledávače (SEO). Klíčovými parametry pro navrhované marketingové strategie jsou pro nás vždy přesné zacílení, efektivní komunikace a měřitelný výsledek v relevantním čase.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="sx12">
+        <div class="well-med">
+          <div class="inner-wl">
+            <h4>Naučíme vás komunikovat s médii</h4>
+            <p>Média jsou důležitým nástrojem firemní komunikace a mají zásadní vliv na to, zda veřejnost firmu zná a co si o ní myslí. Pro naše klienty jsme v minulosti zorganizovali desítky tisíc kontaktů se zástupci médií, ať už se jednalo o tiskové zprávy, odborné články, rozhovory či tiskové konference. Každý zástupce společnosti, který ji reprezentuje v médiích, by měl vědět, jak média fungují a jak s nimi co nejlépe a efektivně komunikovat. Prostřednictvím teoretického i praktického tréninku vás naučíme, jak novináři předat nejlépe vaše sdělení, jak reagovat na ne vždy příjemné dotazy médií a jak vytěžit z komunikace s médii pro vaši společnost maximum.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+</div>
+</div>
