@@ -146,25 +146,6 @@
       lastScrollTop = st;
    }
 
-  // When the user scrolls the page, execute myFunction
-  window.onscroll = function() {myFunction()};
-
-// Get the header
-  var header = document.getElementById("header");
-
-// Get the offset position of the navbar
-  var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  }
-
-
   // Header Filled (cbpAnimatedHeader)
    // More info: http://tympanus.net/codrops/2013/06/06/on-scroll-animated-header/
    // ====================================
@@ -865,19 +846,18 @@
     });
 
     // INTRO
-    var txt_shown = false;
-    $('.card').on("click",function() {
-        $('.card').toggleClass('is-flipped');
-    });
-
-    $('.card').on("mouseover",function() {
-        if (txt_shown == true) {
-            $('.card').toggleClass('is-flipped');
-        }
+  if ( window.location.pathname == '/' ){
+    var card = document.querySelector('.card');
+    card.addEventListener( 'click', function() {
+      card.classList.toggle('is-flipped');
     });
 
     setTimeout(function() {$('.card').click();}, 2000);
-    setTimeout(function() {txt_shown = true;}, 4000);
+
+    card.addEventListener( 'mouseover', function() {
+      card.classList.toggle('is-flipped');
+    });
+  }
 
 
   if (window.location.href.indexOf("aktuality") > -1) {
