@@ -143,3 +143,15 @@ function sepia_preprocess_paragraph__call_to_action(&$variables) {
 function sepia_preprocess_paragraph__image_with_side_text(&$variables) {
  $variables['dark'] = theme_get_setting('dark');
 }
+
+
+function sepia_preprocess_block(&$variables) {
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['language'] = $language;
+}
+
+function sepia_preprocess_paragraph__static_image_intro(&$variables) {
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['language'] = $language;
+}
+

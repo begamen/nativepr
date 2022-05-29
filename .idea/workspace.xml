@@ -2,13 +2,472 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c77d02-8a30-4da4-b02b-62ad53743d2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sites/default/files/intro_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/default/files/intro_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/default/files/languages/cs_507QsQwjbTUc-P-oMuTRJ74V66Pi2MvXh5XMchSQuw0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/default/files/rf/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/default/files/translations/imageapi_optimize-4.0.0-beta1.cs.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gunmaster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gunmaster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/my.local.access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my.local.access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/my.local.error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my.local.error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sepia.theme" beforeDir="false" afterPath="$PROJECT_DIR$/sepia.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2018-09/1140x712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2018-09/1140x712_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/5f04ff62d62c8.image__1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/981-0002_angle_edited_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/IMG_6738-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/gettyimages-594190689_wide-f8f1aff223a29a977b6e402e5925adfabf12d1f5_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/pexels-pixabay-53351_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/scope-2_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/suppressor_fullsizeoutput_5af_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/txtrib-Guns-CCR018 TT_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-10/war-desert-guns-gunshow-163443_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-11/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2020-11/pexels-photo-886454.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/188723978_248953650361677_935270983740542611_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/gpsrizygem8zrmlna6y1.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/gpsrizygem8zrmlna6y1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-akil-mazumder-1072824.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-ali-pazani-2777898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-andrea-piacquadio-3760067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-andrea-piacquadio-863977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-andrea-piacquadio-941693.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-anete-lusina-4791265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-ann-h-6980429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-anna-shvets-5324939.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-anna-shvets-5324939.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-annushka-ahuja-8055848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-artem-beliaikin-929245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-askar-abayev-6190672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-burak-kebapci-187041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-burst-544961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-christina-morillo-1181396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-cottonbro-2773494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-cottonbro-3826676.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-cottonbro-3952231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-engin-akyurt-2098578.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-fauxels-3184465.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-fauxels-3184465.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-helena-lopes-730848.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-helena-lopes-730848.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-ivan-oboleninov-935777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-jess-loiterton-6390681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-julia-kuzenkov-2996255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-kaboompics-com-6214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-karolina-grabowska-4379964.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-karolina-grabowska-4379964.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-ketut-subiyanto-4350210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lex-photography-1109541.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lisa-1092644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lisa-1444416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lisa-851213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lukas-590022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-lukas-669610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-marcin-dampc-1684187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-mark-angelo-1587927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-martin-lopez-954583.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-martin-lopez-954583.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-maxime-francis-2246476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-mikhail-nilov-8390954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-moose-photos-1586973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-oleg-magni-2058128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pami-avilĂ©s-21512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pavel-danilyuk-5858163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pavel-danilyuk-5858217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pavel-danilyuk-6296006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-photomix-company-106344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-picjumbocom-225232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-159751.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-164425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-210063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-235922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-236937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-260024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-260024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-279979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-356079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-358528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-40568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-461593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-51191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-53389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-pixabay-53621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-quintin-gellar-2199293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-reynante-lacbain-8687295.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-reynante-lacbain-8687295.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-scott-webb-28061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-skitterphoto-14621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-skitterphoto-9796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-stephan-mĂĽller-753869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-stephanie-ho-1214212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/2021-08/pexels-tomĂˇĹˇ-malĂ­k-2581922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/340x274/public/core/modules/image/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2018-09/1140x712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2018-09/1140x712_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2020-10/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2020-10/pexels-pixabay-53351_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2020-10/war-desert-guns-gunshow-163443_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2020-11/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/188723978_248953650361677_935270983740542611_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/gpsrizygem8zrmlna6y1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-akil-mazumder-1072824.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-ali-pazani-2777898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-andrea-piacquadio-3760067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-andrea-piacquadio-863977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-anete-lusina-4791265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-anna-shvets-5324939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-annushka-ahuja-8055848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-artem-beliaikin-929245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-askar-abayev-6190672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-burak-kebapci-187041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-burst-544961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-christina-morillo-1181396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-cottonbro-2773494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-cottonbro-3952231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-engin-akyurt-2098578.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-fauxels-3184465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-helena-lopes-730848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-ivan-oboleninov-935777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-jess-loiterton-6390681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-julia-kuzenkov-2996255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-kaboompics-com-6214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-karolina-grabowska-4379964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lex-photography-1109541.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lisa-1092644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lisa-1444416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lisa-851213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lukas-590022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-lukas-669610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-marcin-dampc-1684187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-mark-angelo-1587927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-martin-lopez-954583.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-martin-lopez-954583.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-maxime-francis-2246476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-mikhail-nilov-8390954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-moose-photos-1586973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-oleg-magni-2058128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pami-avilĂ©s-21512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pavel-danilyuk-5858163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pavel-danilyuk-5858217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-photomix-company-106344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-picjumbocom-225232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-159751.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-164425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-210063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-235922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-236937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-260024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-279979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-356079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-358528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-40568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-461593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-53389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-pixabay-53621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-quintin-gellar-2199293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-reynante-lacbain-8687295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-scott-webb-28061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-skitterphoto-14621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-skitterphoto-9796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-stephan-mĂĽller-753869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-stephanie-ho-1214212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/2021-08/pexels-tomĂˇĹˇ-malĂ­k-2581922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/core/modules/image/sample.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/940x627/public/core/modules/image/sample.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2018-09/1140x712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-10/gettyimages-594190689_wide-f8f1aff223a29a977b6e402e5925adfabf12d1f5_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-10/pexels-pixabay-53351_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-10/txtrib-Guns-CCR018 TT_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-11/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-11/KMRS01+PSR22LFBLACK_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-11/hlavni.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-11/pexels-photo-886454.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2020-11/tlumiče_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/CSR9 WB STEEL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/GIS CLEANING TOOL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/GIS PSR22RF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/GIS PSR9 Standard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/KMR-S-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/KMR-S01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/MB 308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/MB1 7-62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/MB1-5-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/MB2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/MB223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5486.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5486_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5489_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5507.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/ZCH_5514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/adapter KMR SR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/adapter KMR75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/klíč PAR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/klíč PAR_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/steel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/2021-01/steel_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/large/public/core/modules/image/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/2018-09/1140x712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/medium/public/2018-09/1140x712_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2018-09/1920x670v2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2018-09/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/2FXGHACMGVOQBHUQZZZJWU6XYM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/5f04ff62d62c8.image_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/5f04ff62d62c8.image__0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/AdobeStock_137171301.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/cornerteaser_2020_05_14_am-scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/gettyimages-594190689_wide-f8f1aff223a29a977b6e402e5925adfabf12d1f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/pexels-photo-3536235_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/pexels-photo-3536247.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/pexels-photo-3536247_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/pexels-photo-886454_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/pexels-photo-886454_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/scope-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/suppressor_fullsizeoutput_5af_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/txtrib-Guns-CCR018 TT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-10/war-desert-guns-gunshow-163443_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/5f04ff62d62c8.image_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/981-0002_angle_edited.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/AdobeStock_137171301.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_155924.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_161920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_161952.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_163328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_163858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_20201120_164505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/IMG_6738-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/KMRS01+PSR22LFBLACK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/PSR10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/PSR9 COMPACT rozpad.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/PSR9COMP(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/ZCH_5023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/ZCH_5127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/ZCH_5155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/cornerteaser_2020_05_14_am-scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/hlavni.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/hlavni_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/silencer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2020-11/tlumiče_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/22_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/30_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CANIK+GIS PSR9 Standard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB STEEL SOUPRAVA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB STEEL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB STEEL_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB STEEL_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB STEEL_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB steel front part.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB steel rear part.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/CSR9 WB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Canik+GIS logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS CLEANING TOOL_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR22RF grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR22RF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR22RF_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR22RF_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR9 STANDARD souprava.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR9 Standard+Compact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR9 Standard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS PSR9 Standard_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/GIS_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/IMG_20201120_162647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/IMG_20201120_164926.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/IMG_20201120_171126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/KMR S-01 +GIS PSR22RF grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/KMR-S-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/KMR-S-01_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/KMR-S01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/KMR-S01_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB 308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB 308_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1 7-62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1 7-62_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1 7-62_0_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1 7-62_0_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1-5-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB1-5-56_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB223_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB223_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/MB2_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/PSR22RF souprava.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/RUGER Mark IV Tactical+GIS PSR22RF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/RUGER SR22+GIS PSR22RF .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Ruger 1022 TAKEDOWN+GIS PSR22RF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/SW MP1522+GIS PSR22RF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3413_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3462.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3462_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3462_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3471_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3497.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/Tlumiče3510_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_4949.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_4986_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5014_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5032_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5425_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5486.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5486_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5486_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5486_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5489_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5489_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5489_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5507.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5507_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5507_0_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5507_0_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5514_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5518.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5552.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5691.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5732.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5732_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/ZCH_5766.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/adapter 75 .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/adapter KMR SR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/adapter KMR SR_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/adapter KMR75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/adapter KMR75_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/attachements.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/attachements_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/klíč PAR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/klíč PAR_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/klíč PAR_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/klíč PSR uložení.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/silencer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/steel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/steel_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/steel_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/steel_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/steel_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/stel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-01/wreenchh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/aon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/baxter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/birell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/birell_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/carrirer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/inv - kopie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-07/kofola.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/188723978_248953650361677_935270983740542611_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/gpsrizygem8zrmlna6y1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-akil-mazumder-1072824.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-ali-pazani-2777898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-andrea-piacquadio-3760067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-andrea-piacquadio-863977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-andrea-piacquadio-941693.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-anete-lusina-4791265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-ann-h-6980429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-anna-shvets-5324939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-annushka-ahuja-8055848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-artem-beliaikin-929245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-askar-abayev-6190672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-burak-kebapci-187041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-burst-544961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-christina-morillo-1181396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-cottonbro-2773494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-cottonbro-3826676.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-cottonbro-3952231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-engin-akyurt-2098578.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-fauxels-3184465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-helena-lopes-730848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-ivan-oboleninov-935777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-jess-loiterton-6390681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-julia-kuzenkov-2996255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-kaboompics-com-6214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-karolina-grabowska-4379964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-ketut-subiyanto-4350210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lex-photography-1109541.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lisa-1092644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lisa-1444416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lisa-851213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lukas-590022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-lukas-669610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-marcin-dampc-1684187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-mark-angelo-1587927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-martin-lopez-954583.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-martin-lopez-954583.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-maxime-francis-2246476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-mikhail-nilov-8390954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-moose-photos-1586973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-oleg-magni-2058128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pami-avilĂ©s-21512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pavel-danilyuk-5858163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pavel-danilyuk-5858217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pavel-danilyuk-6296006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-photomix-company-106344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-picjumbocom-225232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-159751.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-164425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-210063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-235922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-236937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-260024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-279979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-356079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-358528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-40568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-461593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-51191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-53389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-pixabay-53621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-quintin-gellar-2199293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-reynante-lacbain-8687295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-scott-webb-28061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-skitterphoto-14621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-skitterphoto-9796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-stephan-mĂĽller-753869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-stephanie-ho-1214212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/2021-08/pexels-tomĂˇĹˇ-malĂ­k-2581922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/core/modules/image/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/pictures/2018-09/test3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/files/styles/thumbnail/public/pictures/2018-09/test3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/translations/scroll_to_destination_anchors-8.x-1.0-alpha1.cs.po" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/sepia.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/sepia.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--367520b4-6407-4c5f-9556-ee5ffc5d5545.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--367520b4-6407-4c5f-9556-ee5ffc5d5545.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--6c18673c-1999-4758-b5b8-7ae790bf4563.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--6c18673c-1999-4758-b5b8-7ae790bf4563.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/block/block.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/content/node--article--full.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--node--11.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--static-image-intro.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--static-image-intro.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +529,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sites/default/settings.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/assets/js/theme.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--367520b4-6407-4c5f-9556-ee5ffc5d5545.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--static-image-intro.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page--front.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sites/default/services.yml" root0="SKIP_INSPECTION" />
@@ -81,7 +542,6 @@
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/templates/layout/page.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/assets/css/theme.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/themes/custom/sepia/sepia.theme" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--367520b4-6407-4c5f-9556-ee5ffc5d5545.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,6 +653,7 @@
       <path value="$PROJECT_DIR$/vendor/pear/archive_tar" />
       <path value="$PROJECT_DIR$/vendor/pear/pear_exception" />
       <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/tinify/tinify" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -294,7 +755,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../naceradsky-brothers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -302,11 +763,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sites\nativepr\themes\custom\sepia\templates\layout" />
+      <recent name="C:\sites\nativepr\themes\custom\sepia\templates\content" />
       <recent name="C:\sites\nativepr\themes\custom\sepia\templates\block" />
       <recent name="C:\vagrant\vagrant-php7-debian8\nativepr\sites\default" />
       <recent name="C:\vagrant\vagrant-php7-debian8\nativepr\themes\custom\sepia\templates\block" />
-      <recent name="C:\vagrant\vagrant-php7-debian8\nativepr\themes\custom\sepia\templates\layout" />
-      <recent name="C:\vagrant\vagrant-php7-debian8\gunmaster\themes\custom\sepia\templates\paragraphs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -358,6 +819,26 @@
       <workItem from="1638281592876" duration="3788000" />
       <workItem from="1638365767624" duration="4443000" />
       <workItem from="1638396542762" duration="16000" />
+      <workItem from="1640875982618" duration="7500000" />
+      <workItem from="1640946046572" duration="2321000" />
+      <workItem from="1640952201569" duration="15000" />
+      <workItem from="1640952234438" duration="4000" />
+      <workItem from="1640952293153" duration="634000" />
+      <workItem from="1641297848764" duration="5846000" />
+      <workItem from="1643387953732" duration="1238000" />
+      <workItem from="1644485520262" duration="648000" />
+      <workItem from="1644774164852" duration="107000" />
+      <workItem from="1644835560296" duration="30000" />
+      <workItem from="1644835723950" duration="9000" />
+      <workItem from="1645019812948" duration="25000" />
+      <workItem from="1646674378378" duration="817000" />
+      <workItem from="1651560819139" duration="2500000" />
+      <workItem from="1651580246328" duration="4187000" />
+      <workItem from="1652177104219" duration="953000" />
+      <workItem from="1652185173161" duration="505000" />
+      <workItem from="1652188220120" duration="420000" />
+      <workItem from="1652340401838" duration="272000" />
+      <workItem from="1653849372608" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -426,6 +907,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/themes/custom/sepia/templates/block/block--block-content--6c18673c-1999-4758-b5b8-7ae790bf4563.html.twig</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/themes/custom/sepia/templates/paragraphs/paragraph--gallery-item.html.twig">

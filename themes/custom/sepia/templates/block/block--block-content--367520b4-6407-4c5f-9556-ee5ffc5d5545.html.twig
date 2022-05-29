@@ -25,6 +25,7 @@
  * @see template_preprocess_block()
  */
 #}
+{% if language == 'cs' %}
 {{ title_prefix }}
 {% if label %}
 <h3 class="block-title">{{ label }}</h3>
@@ -34,17 +35,17 @@
   <p class="text-align-center uprclas">&nbsp;</p>
 
   <div class="services container-fluid" id="services">
-    <h3 class="block-title text-align-center">Široká nabídka služeb</h3>
+    <h2 class="block-title text-align-center">Široká nabídka služeb</h2>
 
-    <p class="margin-helper text-align-center">Pomáháme Vám správně a efektivně komunikovat. Navrhneme optimální řešení pro Vaše komunikační potřeby a zajistíme jeho perfektní realizaci.</p>
+    <p class="margin-helper text-align-center"></p>
 
     <div class="mobile-only">
       <div class="row">
 
         <a role="button" data-toggle="collapse" href="#msx1" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/chat-icon.png" />
-              <p>Komunikační strategie<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Komunikační strategie" src="/sites/default/files/rf/chat-icon.png" />
+              <p><h3>Komunikační strategie</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -62,8 +63,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx2" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/fleshlight-icon.png" />
-              <p>Komunikační kampaně<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Komunikační kampaně" src="/sites/default/files/rf/fleshlight-icon.png" />
+              <p><h3>Komunikační kampaně</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -81,8 +82,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx3" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/message-icon.png" />
-              <p>Content management<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Content management" src="/sites/default/files/rf/message-icon.png" />
+              <p><h3>Content management</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -100,8 +101,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx4" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/fir_kom.png" />
-              <p>Firemní komunikace<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Firemní komunikace" src="/sites/default/files/rf/fir_kom.png" />
+              <p><h3>Firemní komunikace</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -124,8 +125,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx5" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
-              <p>Krizová komunikace<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Krizová komunikace" src="/sites/default/files/rf/sound-icon.png" />
+              <p><h3>Krizová komunikace</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -145,8 +146,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx6" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/rep_rizik.png" />
-              <p>Reputation management<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Reputation management" src="/sites/default/files/rf/rep_rizik.png" />
+              <p><h3>Reputation management</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -164,8 +165,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx7" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
-              <p>Media relations<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Media relations" src="/sites/default/files/rf/sound-icon.png" />
+              <p><h3>Media relations</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -183,8 +184,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx8" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/battery-icon.png" />
-              <p>Produktová komunikace<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Produktová komunikace" src="/sites/default/files/rf/battery-icon.png" />
+              <p><h3>Produktová komunikace</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -206,8 +207,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx9" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/peoples-icon.png" />
-              <p>HR Marketing a Employer Branding<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="HR Marketing a Employer Branding" src="/sites/default/files/rf/peoples-icon.png" />
+              <p><h3>HR Marketing a Employer Branding</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -225,8 +226,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx10" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/home-icon.png" />
-              <p>Interní komunikace<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Interní komunikace" src="/sites/default/files/rf/home-icon.png" />
+              <p><h3>Interní komunikace</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -244,8 +245,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx11" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/globe-icon.png" />
-              <p>Online komunikace<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Online komunikace" src="/sites/default/files/rf/globe-icon.png" />
+              <p><h3>Online komunikace</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -263,8 +264,8 @@
 
         <a role="button" data-toggle="collapse" href="#msx12" aria-expanded="false" aria-controls="collapseExample">
           <div class="col-sm-6 col-md-3">
-            <div class="service"><img src="/sites/default/files/rf/hand-icon.png" />
-              <p>Mediální trénink<span class="but">&nbsp;</span></p>
+            <div class="service"><img alt="Mediální trénink" src="/sites/default/files/rf/hand-icon.png" />
+              <p><h3>Mediální trénink</h3><span class="but">&nbsp;</span></p>
             </div>
           </div>
         </a>
@@ -289,32 +290,32 @@
 
       <a role="button" data-toggle="collapse" href="#sx1" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/chat-icon.png" />
-            <p>Komunikační strategie<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Komunikační strategie" src="/sites/default/files/rf/chat-icon.png" />
+            <p><h3>Komunikační strategie</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx2" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/fleshlight-icon.png" />
-            <p>Komunikační kampaně<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Komunikační kampaně" src="/sites/default/files/rf/fleshlight-icon.png" />
+            <p><h3>Komunikační kampaně</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx3" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/message-icon.png" />
-            <p>Content management<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Content management" src="/sites/default/files/rf/message-icon.png" />
+            <p><h3>Content management</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
     <a role="button" data-toggle="collapse" href="#sx4" aria-expanded="false" aria-controls="collapseExample">
       <div class="col-sm-6 col-md-3">
-        <div class="service"><img src="/sites/default/files/rf/fir_kom.png" />
-          <p>Firemní komunikace<span class="but">&nbsp;</span></p>
+        <div class="service"><img alt="Firemní komunikace" src="/sites/default/files/rf/fir_kom.png" />
+          <p><h3>Firemní komunikace</h3><span class="but">&nbsp;</span></p>
         </div>
       </div>
     </a>
@@ -364,32 +365,32 @@
 
       <a role="button" data-toggle="collapse" href="#sx5" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
-            <p>Krizová komunikace<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Krizová komunikace" src="/sites/default/files/rf/sound-icon.png" />
+            <p><h3>Krizová komunikace</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx6" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/rep_rizik.png" />
-            <p>Reputation management<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Reputation management" src="/sites/default/files/rf/rep_rizik.png" />
+            <p><h3>Reputation management</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx7" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/sound-icon.png" />
-            <p>Media relations<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Media relations" src="/sites/default/files/rf/sound-icon.png" />
+            <p><h3>Media relations</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx8" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/battery-icon.png" />
-            <p>Produktová komunikace<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Produktová komunikace" src="/sites/default/files/rf/battery-icon.png" />
+            <p><h3>Produktová komunikace</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
@@ -441,32 +442,32 @@
 
       <a role="button" data-toggle="collapse" href="#sx9" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/peoples-icon.png" />
-            <p>HR Marketing a Employer Branding<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="HR Marketing a Employer Branding" src="/sites/default/files/rf/peoples-icon.png" />
+            <p><h3>HR Marketing a Employer Branding</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx10" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/home-icon.png" />
-            <p>Interní komunikace<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Interní komunikace" src="/sites/default/files/rf/home-icon.png" />
+            <p><h3>Interní komunikace</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx11" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/globe-icon.png" />
-            <p>Online komunikace<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Online komunikace" src="/sites/default/files/rf/globe-icon.png" />
+            <p><h3>Online komunikace</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
 
       <a role="button" data-toggle="collapse" href="#sx12" aria-expanded="false" aria-controls="collapseExample">
         <div class="col-sm-6 col-md-3">
-          <div class="service"><img src="/sites/default/files/rf/hand-icon.png" />
-            <p>Mediální trénink<span class="but">&nbsp;</span></p>
+          <div class="service"><img alt="Mediální trénink" src="/sites/default/files/rf/hand-icon.png" />
+            <p><h3>Mediální trénink</h3><span class="but">&nbsp;</span></p>
           </div>
         </div>
       </a>
@@ -515,3 +516,517 @@
 
 </div>
 </div>
+{% else %}
+  {{ title_prefix }}
+  {% if label %}
+    <h2 class="block-title">{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  <div class="block-inner">
+    <p class="text-align-center uprclas">&nbsp;</p>
+
+    <div class="services container-fluid" id="services">
+      <h3 class="block-title text-align-center">Wide range of services</h3>
+
+      <p class="margin-helper text-align-center"></p>
+
+      <div class="mobile-only">
+        <div class="row">
+
+          <a role="button" data-toggle="collapse" href="#msx1" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Communication strategy" src="/sites/default/files/rf/chat-icon.png" />
+                <p><h3>Communication strategy</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx1">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We develop effective strategies to accomplish you communication goals.</h4>
+
+                  <p>Different communication goals require different solutions. A good communication strategy will increase your revenue, enable you to hire and retain great employees or lower the risk of conflicts with interest groups that could influence your business. Based on commercial and business interests, we help our clients define their communication goals,analyse the environment and interest groups for communication and develop an appropriate strategy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx2" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Communication campaigns" src="/sites/default/files/rf/fleshlight-icon.png" />
+                <p><h3>Communication campaigns</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx2">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We develop and execute communication campaigns suited to your needs</h4>
+
+                  <p>We're a business leader in creating and executing communication campaigns that will help influence public opinion and behaviour. Whether the goal of your communication is to increase your revenue, influence the behaviour of customers or even gain public support for a legislative change in your sector of business – we will develop an overall concept of the campaign, design of its elements and ensure the execution of all creative solutions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx3" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Content management" src="/sites/default/files/rf/message-icon.png" />
+                <p><h3>Content management</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx3">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We tell the stories of our clients</h4>
+
+                  <p>Telling strong stories is one of the best ways to gain real attention in today's hyper-connected world. A good story creates an emotional investment and leads the consumer to assume a stance and take action. We look for extraordinary stories. We search for avenues and activities that will help us achieve the maximum effect for our clients. We tell stories through all relevant channels and we help organizations embrace the story as an inseparable part of their lives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx4" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Corporate communication" src="/sites/default/files/rf/fir_kom.png" />
+                <p><h3>Corporate communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx4">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We help companies build and develop relationships with all groups of partners and decision makers.</h4>
+
+                  <p>Building and developing relationships with different external stakeholders requires understanding of their interests and expectations. We maximize the benefits of external relations by developing strategies and action plans, from information campaigns to relations management.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+
+          <a role="button" data-toggle="collapse" href="#msx5" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Crisis communication" src="/sites/default/files/rf/sound-icon.png" />
+                <p><h3>Crisis communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx5">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We help our clients manage a crisis situation with minimal impact on their reputation</h4>
+
+                  <p>A poorly managed crisis can ruin your company's years of carefully built reputation in a single day. We help clients prevent, prepare for, react to and respond to crises. We have successfully passed dozens of major and minor crisis situations with our clients and we know how to successfully solve them on a communication level. We have a wealth of experience with preparing crisis communication plans, management training or organizing crisis simulations. And when an actual crisis happens,we help you manage it in real time with the help of our 24/7 crisis hotline and an experienced crisis management team, specially trained and prepared for this type of work.<br />
+                    Do you need immediate help? Call our 24/7 crisis hotline at 603 574 650.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx6" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Reputation management" src="/sites/default/files/rf/rep_rizik.png" />
+                <p><h3>Reputation management</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx6">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>Reputation building and reputation risk management</h4>
+
+                  <p>In the era of social networks,increased user engagement and extremely rapid sharing of information among the general public, the issue of good reputation has become more significant than ever. Your reputation can greatly contribute to achieving your business goals or, on the contrary,make it impossible to fulfill them. We have a wide range of services that will help you with building your reputation on a local or nationwide level. We design and implement long-term communication programs focused on enhancing good repution and limiting reputational risks. In these programs, we integrate traditional media and social networks. We can help you identify the main opinion makers and establish the most appropriate way of communicating with them.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx7" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Media relations" src="/sites/default/files/rf/sound-icon.png" />
+                <p><h3>Media relations</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx7">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We help clients use media effectively to suit their communication needs.</h4>
+
+                  <p>We provide effective mass media presentations and build long-term relationships with relevant media. We create optimal media presence with respect to corporate goals. We increase the public's understanding of products, services and the company itself. We look for interesting topics, design and implement specific forms of presentation, help create and tell stories about companies and their products.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx8" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Product Communication" src="/sites/default/files/rf/battery-icon.png" />
+                <p><h3>Product Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx8">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We ensure that customers know and prefer your products or services</h4>
+
+                  <p>Consumers are overwhelmed by an increasing number of less original advertising messages, as a result, the effectiveness of classic advertising is decreasing. To ensure a similar result, companies are forced to spend more and more on media purchases. We have a range of tools to build a consumer relationship with a particular brand cheaper and with more creativity. We can create a long-term story that reaches customers through direct communication, over the Internet, and has the potential to reach the relevant media. When creating PR product strategies, we are used to working closely with agencies that provide other components of the necessary marketing mix.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <a role="button" data-toggle="collapse" href="#msx9" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="HR Marketing and Employer Branding" src="/sites/default/files/rf/peoples-icon.png" />
+                <p><h3>HR Marketing and Employer Branding</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx9">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>Building an Employer Branding</h4>
+
+                  <p>Building an employer brand and recruiting quality employees is the number one issue for most of our clients. We help companies spread their good reputation towards potential employees - whether by building career pages,communicating in the media, online presentations, or using social networks. We deal with employee motivation and actively engage them in the dissemination of corporate reputation because they are the main bearers of a good employer brand.<br />
+                    We design and implement a communications campaign tailored to your business' specific needs to help reach the right potential employees and get them to an interview with your HR manager.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx10" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Internal Communication" src="/sites/default/files/rf/home-icon.png" />
+                <p><h3>Internal Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx10">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We help increase your employees' loyalty and commitment</h4>
+
+                  <p>Good managers pay attention to employees being proud of the company and not letting rumors and gossip be the main source of information. Our PR agency has completed a number of successful internal communication projects for various types of companies. We will create a comprehensive internal communication strategy for your company, carry out internal opinion surveys, help you publish your employee magazine,design intranet content, or implement a range of motivational contests for your employees.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx11" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Online Communication" src="/sites/default/files/rf/globe-icon.png" />
+                <p><h3>Online Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx11">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>With us you will feel right at home on the Internet</h4>
+
+                  <p>The Internet is the greatest revolution in communication since the invention of printing press. Having an official website is no longer enough, and more and more emphasis is being placed on effective dialogue with customers. Social networking tools, blogs, and discussion forums have turned consumers into committed spokespersons who are no longer just passive recipients of the message, but are actively influencing each other's behavior and opinions. If you want to promote yourself in the world of online communication, you should not only listen to your clients but also actively communicate with them. Our digital marketing specialists will help you deliver the message to the right target audience through the right media and at the right time. At the same time, we will take care of your reputation across all online channels. We will help improve your search engine optimization (SEO). The key parameters for the proposed marketing strategies are always the exact targeting, effective communication and measurable result at the relevant time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a role="button" data-toggle="collapse" href="#msx12" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Media training" src="/sites/default/files/rf/hand-icon.png" />
+                <p><h3>Media training</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <div class="row b-b">
+            <div class="collapse" id="msx12">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4>We will teach you to communicate with the media</h4>
+
+                  <p>Media are an important tool for corporate communication and have a major impact on whether the public is aware of and has opinions about the company. For our clients, we have provided tens of thousands of contacts with media representatives in the past, be it press releases, articles,interviews or press conferences. Every company representative who represents it in the media should know how media work and how to communicate with them as effectively as possible. Through both theoretical and practical training, we will teach you how to best convey your message to journalists, how to respond to unpleasant media inquiries and how to make the most out of media communication for your company.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="desktop-only">
+        <div class="row">
+
+          <a role="button" data-toggle="collapse" href="#sx1" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Communication strategy" src="/sites/default/files/rf/chat-icon.png" />
+                <p><h3>Communication strategy</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx2" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Communication campaigns" src="/sites/default/files/rf/fleshlight-icon.png" />
+                <p><h3>Communication campaigns</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx3" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Content management" src="/sites/default/files/rf/message-icon.png" />
+                <p><h3>Content management</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx4" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Corporate communication" src="/sites/default/files/rf/fir_kom.png" />
+                <p><h3>Corporate communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="row b-b">
+
+          <div class="collapse" id="sx1">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We develop effective strategies to accomplish you communication goals.</h4>
+
+                <p>Different communication goals require different solutions. A good communication strategy will increase your revenue, enable you to hire and retain great employees or lower the risk of conflicts with interest groups that could influence your business. Based on commercial and business interests, we help our clients define their communication goals,analyse the environment and interest groups for communication and develop an appropriate strategy.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx2">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We develop and execute communication campaigns suited to your needs</h4>
+
+                <p>We're a business leader in creating and executing communication campaigns that will help influence public opinion and behaviour. Whether the goal of your communication is to increase your revenue, influence the behaviour of customers or even gain public support for a legislative change in your sector of business – we will develop an overall concept of the campaign, design of its elements and ensure the execution of all creative solutions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx3">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We tell the stories of our clients</h4>
+
+                <p>Telling strong stories is one of the best ways to gain real attention in today's hyper-connected world. A good story creates an emotional investment and leads the consumer to assume a stance and take action. We look for extraordinary stories. We search for avenues and activities that will help us achieve the maximum effect for our clients. We tell stories through all relevant channels and we help organizations embrace the story as an inseparable part of their lives.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx4">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We help companies build and develop relationships with all groups of partners and decision makers.</h4>
+
+                <p>Building and developing relationships with different external stakeholders requires understanding of their interests and expectations. We maximize the benefits of external relations by developing strategies and action plans, from information campaigns to relations management.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <a role="button" data-toggle="collapse" href="#sx5" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Crisis communication" src="/sites/default/files/rf/sound-icon.png" />
+                <p><h3>Crisis communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx6" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Reputation management" src="/sites/default/files/rf/rep_rizik.png" />
+                <p><h3>Reputation management</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx7" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Media relations" src="/sites/default/files/rf/sound-icon.png" />
+                <p><h3>Media relations</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx8" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Product Communication" src="/sites/default/files/rf/battery-icon.png" />
+                <p><h3>Product Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="row b-b">
+
+          <div class="collapse" id="sx5">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We help our clients manage a crisis situation with minimal impact on their reputation</h4>
+
+                <p>A poorly managed crisis can ruin your company's years of carefully built reputation in a single day. We help clients prevent, prepare for, react to and respond to crises. We have successfully passed dozens of major and minor crisis situations with our clients and we know how to successfully solve them on a communication level. We have a wealth of experience with preparing crisis communication plans, management training or organizing crisis simulations. And when an actual crisis happens,we help you manage it in real time with the help of our 24/7 crisis hotline and an experienced crisis management team, specially trained and prepared for this type of work.<br />
+                  Do you need immediate help? Call our 24/7 crisis hotline at 603 574 650.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx6">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>Reputation building and reputation risk management</h4>
+
+                <p>In the era of social networks,increased user engagement and extremely rapid sharing of information among the general public, the issue of good reputation has become more significant than ever. Your reputation can greatly contribute to achieving your business goals or, on the contrary,make it impossible to fulfill them. We have a wide range of services that will help you with building your reputation on a local or nationwide level. We design and implement long-term communication programs focused on enhancing good repution and limiting reputational risks. In these programs, we integrate traditional media and social networks. We can help you identify the main opinion makers and establish the most appropriate way of communicating with them.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx7">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We help clients use media effectively to suit their communication needs.</h4>
+
+                <p>We provide effective mass media presentations and build long-term relationships with relevant media. We create optimal media presence with respect to corporate goals. We increase the public's understanding of products, services and the company itself. We look for interesting topics, design and implement specific forms of presentation, help create and tell stories about companies and their products.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx8">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We ensure that customers know and prefer your products or services</h4>
+
+                <p>Consumers are overwhelmed by an increasing number of less original advertising messages, as a result, the effectiveness of classic advertising is decreasing. To ensure a similar result, companies are forced to spend more and more on media purchases. We have a range of tools to build a consumer relationship with a particular brand cheaper and with more creativity. We can create a long-term story that reaches customers through direct communication, over the Internet, and has the potential to reach the relevant media. When creating PR product strategies, we are used to working closely with agencies that provide other components of the necessary marketing mix.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <a role="button" data-toggle="collapse" href="#sx9" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="HR Marketing and Employer Branding" src="/sites/default/files/rf/peoples-icon.png" />
+                <p><h3>HR Marketing and Employer Branding</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx10" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Internal Communication" src="/sites/default/files/rf/home-icon.png" />
+                <p><h3>Internal Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx11" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Online Communication" src="/sites/default/files/rf/globe-icon.png" />
+                <p><h3>Online Communication</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+
+          <a role="button" data-toggle="collapse" href="#sx12" aria-expanded="false" aria-controls="collapseExample">
+            <div class="col-sm-6 col-md-3">
+              <div class="service"><img alt="Media Training" src="/sites/default/files/rf/hand-icon.png" />
+                <p><h3>Media Training</h3><span class="but">&nbsp;</span></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="row b-b">
+
+          <div class="collapse" id="sx9">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>Building an Employer Branding</h4>
+
+                <p>Building an employer brand and recruiting quality employees is the number one issue for most of our clients. We help companies spread their good reputation towards potential employees - whether by building career pages,communicating in the media, online presentations, or using social networks. We deal with employee motivation and actively engage them in the dissemination of corporate reputation because they are the main bearers of a good employer brand.<br />
+                  We design and implement a communications campaign tailored to your business' specific needs to help reach the right potential employees and get them to an interview with your HR manager.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx10">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We help increase your employees' loyalty and commitment</h4>
+
+                <p>Good managers pay attention to employees being proud of the company and not letting rumors and gossip be the main source of information. Our PR agency has completed a number of successful internal communication projects for various types of companies. We will create a comprehensive internal communication strategy for your company, carry out internal opinion surveys, help you publish your employee magazine,design intranet content, or implement a range of motivational contests for your employees.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx11">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>With us you will feel right at home on the Internet</h4>
+
+                <p>The Internet is the greatest revolution in communication since the invention of printing press. Having an official website is no longer enough, and more and more emphasis is being placed on effective dialogue with customers. Social networking tools, blogs, and discussion forums have turned consumers into committed spokespersons who are no longer just passive recipients of the message, but are actively influencing each other's behavior and opinions. If you want to promote yourself in the world of online communication, you should not only listen to your clients but also actively communicate with them. Our digital marketing specialists will help you deliver the message to the right target audience through the right media and at the right time. At the same time, we will take care of your reputation across all online channels. We will help improve your search engine optimization (SEO). The key parameters for the proposed marketing strategies are always the exact targeting, effective communication and measurable result at the relevant time.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse" id="sx12">
+            <div class="well-med">
+              <div class="inner-wl">
+                <h4>We will teach you to communicate with the media</h4>
+
+                <p>Media are an important tool for corporate communication and have a major impact on whether the public is aware of and has opinions about the company. For our clients, we have provided tens of thousands of contacts with media representatives in the past, be it press releases, articles,interviews or press conferences. Every company representative who represents it in the media should know how media work and how to communicate with them as effectively as possible. Through both theoretical and practical training, we will teach you how to best convey your message to journalists, how to respond to unpleasant media inquiries and how to make the most out of media communication for your company.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

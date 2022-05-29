@@ -25,6 +25,8 @@
  * @see template_preprocess_block()
  */
 #}
+
+{% if language == 'cs' %}
 {{ title_prefix }}
 {% if label %}
 <h3 class="block-title">{{ label }}</h3>
@@ -37,9 +39,9 @@
     <p class="text-align-center uprclas">&nbsp;</p>
 
     <div id="references" class="references-top">
-        <h3 class="block-title">Reference vybraných klientů</h3>
+        <h2 class="block-title">Reference</h2>
 
-        <p class="margin-helper text-align-center">Abychom o naší práci nehovořili pouze my, nechali jsme naše klienty, aby sami vyjádřili, jak naši spolupráci a služby vnímají...</p>
+        <p class="margin-helper text-align-center"></p>
 
         <div class="references">
 
@@ -49,7 +51,7 @@
 
               <a role="button" data-toggle="collapse" href="#mcsx1" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/1.png" />
+                  <div class="inner"><img alt="MOL - Native PR" src="/sites/default/files/rf_cache/1.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -59,8 +61,6 @@
               <div class="collapse" id="mcsx1">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>CSR projekt: Zachraňujeme životy!</h4>
-                    <p>Jak úspěšně medializovat zavedení defibrilátorů na čerpacích stanicích? Pro MOL Česká republika je péče o zákazníky prioritou. Kromě špičkového servisu na čerpacích stanicích klade stejně velký důraz i na zdraví motoristů – a právě proto zavedla automatické externí defibrilátory na nejfrekventovanějších dálničních tazích. Komunikaci tohoto kroku jsme načasovali na období letních prázdnin, kdy se kvůli teplotám zvyšuje riziko infarktů, a to nejen za volantem. Uspořádali jsme exkluzivní tiskovou konferenci s interaktivním programem, na níž si sami novináři vyzkoušeli obsluhu defibrilátoru. Díky tomu získal projekt velkou publicitu. Diváci z celé země se dozvěděli o tom, že na čerpacích stanicích MOL jsou instalované defibrilátory a viděli,jak snadné je jejich použití – reportáž o projektu byla odvysílána i v hlavních večerních zprávách České televize! Během léta jsme vydávali osvětové články s tématem srdeční zástavy a první pomoci do celostátních i regionálních médií s důrazem na informaci o existenci defibrilátorů na dálničních čerpacích stanicích MOL.</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@
 
               <a role="button" data-toggle="collapse" href="#mcsx2" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/2.png" />
+                  <div class="inner"><img alt="Wustenrot - Native PR" src="/sites/default/files/rf_cache/2.png" />
                     <div class="but"></div >
                   </div>
                 </div>
@@ -78,8 +78,6 @@
               <div class="collapse" id="mcsx2">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
                   </div>
                 </div>
               </div>
@@ -87,7 +85,7 @@
 
               <a role="button" data-toggle="collapse" href="#mcsx3" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/4.png" />
+                  <div class="inner"><img alt="Mondi - Native PR" src="/sites/default/files/rf_cache/4.png" />
                     <div class="but"></div >
                   </div>
                 </div>
@@ -97,16 +95,14 @@
               <div class="collapse" id="mcsx3">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
                   </div>
                 </div>
               </div>
               </div>
 
-              <a role="button" data-toggle="collapse" href="#mcsx4" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx4" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/6.png" />
+                  <div class="inner"><img alt="Saxo Bank - Native PR" src="/sites/default/files/rf_cache/6.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -117,8 +113,8 @@
             <div class="collapse" id="mcsx4">
               <div class="well-med">
                 <div class="inner-wl">
-                  <h4>SAXO DOPLNIT</h4>
-                  <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                  <h4></h4>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -128,7 +124,7 @@
 
               <a role="button" data-toggle="collapse" href="#mcsx5" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/9.png" />
+                  <div class="inner"><img alt="McDonalds - Native PR" src="/sites/default/files/rf_cache/9.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -139,16 +135,14 @@
               <div class="collapse" id="mcsx5">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Employer Branding: Cool komunikace pro cool zaměstnance</h4>
-                    <p>Jak vypadá intranet a náborový web pro firmu s věkovým průměrem zaměstnanců kolem 18 let? Pro McDonald’s jsme navrhli obsahovou a grafickou proměnu intranetu a kariérních stránek, a to tak, aby byli co nejatraktivnější pro uvedenou cílovou skupinu. Nový intranet pracuje s multimediálními formáty, vyváženým poměrem textu a vizuálů,komunikuje se zaměstnanci prostřednictvím soutěží, anket, sdílením fotografií a reportáží z firemních akcí nebo pravidelným chatem s top managementem. Také u kariérních stránek, uvedených sloganem „Mekáč jsme my!“, jsme implementovali novou obsahovou strategii s cílem co největší přehlednosti a atraktivity. Pojítkem mezi oběma kanály byl designový prvek – barevné kaňky, které jsme při spuštění nových stránek zpracovali do podoby velkých samolepek,umístěných v zázemí zaměstnanců v restauracích. Po menších samolepkách, které se rozdávaly zaměstnancům 144 českých a slovenských poboček jako dárek, se jen zaprášilo! Ukázku náborového videa naleznete zde.</p>
                   </div>
                 </div>
               </div>
               </div>
 
-              <a role="button" data-toggle="collapse" href="#mcsx6" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx6" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/10.png" />
+                  <div class="inner"><img alt="Moneta - Native PR" src="/sites/default/files/rf_cache/10.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -159,16 +153,16 @@
               <div class="collapse" id="mcsx6">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
               </div>
 
-              <a role="button" data-toggle="collapse" href="#mcsx7" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx7" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/11.png" />
+                  <div class="inner"><img alt="Czech Airlines - Native PR" src="/sites/default/files/rf_cache/11.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -179,16 +173,16 @@
               <div class="collapse" id="mcsx7">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
               </div>
 
-              <a role="button" data-toggle="collapse" href="#mcsx8" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx8" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/12.png" />
+                  <div class="inner"><img alt="Siemens - Native PR" src="/sites/default/files/rf_cache/12.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -200,8 +194,8 @@
             <div class="collapse" id="mcsx8">
               <div class="well-med">
                 <div class="inner-wl">
-                  <h4>SAXO DOPLNIT</h4>
-                  <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                  <h4></h4>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -209,9 +203,9 @@
 
             <div class="row">
 
-              <a role="button" data-toggle="collapse" href="#mcsx9" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx9" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/19.png" />
+                  <div class="inner"><img alt="LG - Native PR" src="/sites/default/files/rf_cache/19.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -221,16 +215,16 @@
               <div class="collapse" id="mcsx9">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Employer Branding: Cool komunikace pro cool zaměstnance</h4>
-                    <p>Jak vypadá intranet a náborový web pro firmu s věkovým průměrem zaměstnanců kolem 18 let? Pro McDonald’s jsme navrhli obsahovou a grafickou proměnu intranetu a kariérních stránek, a to tak, aby byli co nejatraktivnější pro uvedenou cílovou skupinu. Nový intranet pracuje s multimediálními formáty, vyváženým poměrem textu a vizuálů,komunikuje se zaměstnanci prostřednictvím soutěží, anket, sdílením fotografií a reportáží z firemních akcí nebo pravidelným chatem s top managementem. Také u kariérních stránek, uvedených sloganem „Mekáč jsme my!“, jsme implementovali novou obsahovou strategii s cílem co největší přehlednosti a atraktivity. Pojítkem mezi oběma kanály byl designový prvek – barevné kaňky, které jsme při spuštění nových stránek zpracovali do podoby velkých samolepek,umístěných v zázemí zaměstnanců v restauracích. Po menších samolepkách, které se rozdávaly zaměstnancům 144 českých a slovenských poboček jako dárek, se jen zaprášilo! Ukázku náborového videa naleznete zde.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
               </div>
 
-              <a role="button" data-toggle="collapse" href="#mcsx10" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx10" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/21.png" />
+                  <div class="inner"><img alt="Pfizer - Native PR" src="/sites/default/files/rf_cache/21.png" />
                     <div class="but">&nbsp;</div >
                   </div>
                 </div>
@@ -240,18 +234,18 @@
               <div class="collapse" id="mcsx10">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
               </div>
 
 
-              <a role="button" data-toggle="collapse" href="#mcsx11" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#mcsxx11" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/22.png" />
-                    <div class="but">&nbsp;</div >
+                  <div class="inner"><img alt="Tesco - Native PR" src="/sites/default/files/rf_cache/22.png" />
+                    <div class="but"> </div >
                   </div>
                 </div>
               </a>
@@ -260,8 +254,8 @@
               <div class="collapse" id="mcsx11">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -287,7 +281,7 @@
 
               <a role="button" data-toggle="collapse" href="#csx1" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/1.png" />
+                  <div class="inner"><img alt="MOL - Native PR" src="/sites/default/files/rf_cache/1.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
@@ -295,7 +289,7 @@
 
               <a role="button" data-toggle="collapse" href="#csx2" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/2.png" />
+                  <div class="inner"><img alt="Wustenrot - Native PR" src="/sites/default/files/rf_cache/2.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
@@ -303,15 +297,15 @@
 
               <a role="button" data-toggle="collapse" href="#csx3" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/4.png" />
+                  <div class="inner"><img alt="Mondi - Native PR" src="/sites/default/files/rf_cache/4.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx4" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx4" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/6.png" />
+                  <div class="inner"><img alt="Saxo Bank - Native PR" src="/sites/default/files/rf_cache/6.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
@@ -323,17 +317,13 @@
               <div class="collapse" id="csx1">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>CSR projekt: Zachraňujeme životy!</h4>
-                    <p>Jak úspěšně medializovat zavedení defibrilátorů na čerpacích stanicích? Pro MOL Česká republika je péče o zákazníky prioritou. Kromě špičkového servisu na čerpacích stanicích klade stejně velký důraz i na zdraví motoristů – a právě proto zavedla automatické externí defibrilátory na nejfrekventovanějších dálničních tazích. Komunikaci tohoto kroku jsme načasovali na období letních prázdnin, kdy se kvůli teplotám zvyšuje riziko infarktů, a to nejen za volantem. Uspořádali jsme exkluzivní tiskovou konferenci s interaktivním programem, na níž si sami novináři vyzkoušeli obsluhu defibrilátoru. Díky tomu získal projekt velkou publicitu. Diváci z celé země se dozvěděli o tom, že na čerpacích stanicích MOL jsou instalované defibrilátory a viděli,jak snadné je jejich použití – reportáž o projektu byla odvysílána i v hlavních večerních zprávách České televize! Během léta jsme vydávali osvětové články s tématem srdeční zástavy a první pomoci do celostátních i regionálních médií s důrazem na informaci o existenci defibrilátorů na dálničních čerpacích stanicích MOL.</p>
-                  </div>
+                  </div>>
                 </div>
               </div>
 
               <div class="collapse" id="csx2">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
                   </div>
                 </div>
               </div>
@@ -341,8 +331,6 @@
               <div class="collapse" id="csx3">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
                   </div>
                 </div>
               </div>
@@ -350,8 +338,8 @@
               <div class="collapse" id="csx4">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>SAXO DOPLNIT</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -362,31 +350,31 @@
 
               <a role="button" data-toggle="collapse" href="#csx5" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/9.png" />
+                  <div class="inner"><img alt="McDonalds - Native PR" src="/sites/default/files/rf_cache/9.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx6" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx6" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/10.png" />
+                  <div class="inner"><img alt="Moneta - Native PR" src="/sites/default/files/rf_cache/10.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx7" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx7" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/11.png" />
+                  <div class="inner"><img alt="Czech Airlines - Native PR" src="/sites/default/files/rf_cache/11.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx8" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx8" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/12.png" />
+                  <div class="inner"><img alt="Siemens - Native PR" src="/sites/default/files/rf_cache/12.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
@@ -398,8 +386,6 @@
               <div class="collapse" id="csx5">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Employer Branding: Cool komunikace pro cool zaměstnance</h4>
-                    <p>Jak vypadá intranet a náborový web pro firmu s věkovým průměrem zaměstnanců kolem 18 let? Pro McDonald’s jsme navrhli obsahovou a grafickou proměnu intranetu a kariérních stránek, a to tak, aby byli co nejatraktivnější pro uvedenou cílovou skupinu. Nový intranet pracuje s multimediálními formáty, vyváženým poměrem textu a vizuálů,komunikuje se zaměstnanci prostřednictvím soutěží, anket, sdílením fotografií a reportáží z firemních akcí nebo pravidelným chatem s top managementem. Také u kariérních stránek, uvedených sloganem „Mekáč jsme my!“, jsme implementovali novou obsahovou strategii s cílem co největší přehlednosti a atraktivity. Pojítkem mezi oběma kanály byl designový prvek – barevné kaňky, které jsme při spuštění nových stránek zpracovali do podoby velkých samolepek,umístěných v zázemí zaměstnanců v restauracích. Po menších samolepkách, které se rozdávaly zaměstnancům 144 českých a slovenských poboček jako dárek, se jen zaprášilo! Ukázku náborového videa naleznete zde.</p>
                   </div>
                 </div>
               </div>
@@ -407,8 +393,8 @@
               <div class="collapse" id="csx6">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -416,8 +402,8 @@
               <div class="collapse" id="csx7">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -425,8 +411,8 @@
               <div class="collapse" id="csx8">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>SAXO DOPLNIT</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -435,25 +421,25 @@
 
             <div class="row">
 
-              <a role="button" data-toggle="collapse" href="#csx9" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx9" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/19.png" />
+                  <div class="inner"><img alt="LG - Native PR" src="/sites/default/files/rf_cache/19.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx10" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx10" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/21.png" />
+                  <div class="inner"><img alt="Pfizer - Native PR" src="/sites/default/files/rf_cache/21.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
               </a>
 
-              <a role="button" data-toggle="collapse" href="#csx11" aria-expanded="false" aria-controls="collapseExample">
+              <a role="button" data-toggle="collapse" href="#csxx11" aria-expanded="false" aria-controls="collapseExample">
                 <div class="col-sm-6 col-md-3">
-                  <div class="inner"><img src="/sites/default/files/rf_cache/22.png" />
+                  <div class="inner"><img alt="Tesco - Native PR" src="/sites/default/files/rf_cache/22.png" />
                     <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
                   </div>
                 </div>
@@ -475,8 +461,8 @@
               <div class="collapse" id="csx9">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Employer Branding: Cool komunikace pro cool zaměstnance</h4>
-                    <p>Jak vypadá intranet a náborový web pro firmu s věkovým průměrem zaměstnanců kolem 18 let? Pro McDonald’s jsme navrhli obsahovou a grafickou proměnu intranetu a kariérních stránek, a to tak, aby byli co nejatraktivnější pro uvedenou cílovou skupinu. Nový intranet pracuje s multimediálními formáty, vyváženým poměrem textu a vizuálů,komunikuje se zaměstnanci prostřednictvím soutěží, anket, sdílením fotografií a reportáží z firemních akcí nebo pravidelným chatem s top managementem. Také u kariérních stránek, uvedených sloganem „Mekáč jsme my!“, jsme implementovali novou obsahovou strategii s cílem co největší přehlednosti a atraktivity. Pojítkem mezi oběma kanály byl designový prvek – barevné kaňky, které jsme při spuštění nových stránek zpracovali do podoby velkých samolepek,umístěných v zázemí zaměstnanců v restauracích. Po menších samolepkách, které se rozdávaly zaměstnancům 144 českých a slovenských poboček jako dárek, se jen zaprášilo! Ukázku náborového videa naleznete zde.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -484,8 +470,8 @@
               <div class="collapse" id="csx10">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>PRODEJ POJIŠŤOVNY - TAHLE NEVĚSTA JE VÁŽNĚ ATRAKTIVNÍ!</h4>
-                    <p>Finanční skupina Wüstenrot zveřejnila záměr prodat svou pojišťovací část. Při hledání strategického partnera hrála významnou roli síla, stabilita, zdraví a hodnota značky Wüstenrot. Úkolem agentury Native PR bylo posílit vnímanou hodnotu pojišťovny jejím větším zviditelněním v médiích a posílením image celé skupiny jako experta a inovátora v relevantních finančních segmentech. Dosažený výsledek: z hlediska mediální publicity byl pro Wüstenrot rok 2015 rekordní. Podle mediální analýzy Newton bylo zveřejněno 1 432 pozitivních nebo neutrálních výstupů a hodnota AVE dosáhla 35,5 mil. Kč. Celková čtenost přesáhla 350 mil. recipientů. Zvýšená mediální prezentace podpořila management firmy při hledání partnera pro akvizici a už v září mohla společnost oznámit, že pojišťovací část finanční skupiny Wüstenrot přebere skupina Allianz.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -493,8 +479,8 @@
               <div class="collapse" id="csx11">
                 <div class="well-med">
                   <div class="inner-wl">
-                    <h4>Firemní event: Den malých papíráků</h4>
-                    <p>Zabavit přes 200 dětí je královská disciplína. Pro nás to ale byla hračka! Děti zaměstnanců největší české papírny Mondi Štětí zakončují své prázdniny příměstským táborem a zlatým hřebem je tradiční Den malých papíráků – celodenní akce, která dětem přináší zábavu i poučení. Tentokrát na „papíráky“ čekalo 12 zábavných stanovišť s tématem bezpečnosti a zodpovědného chování. Kromě kreativních a sportovních aktivit měly děti možnost si zahrát scénky před kamerou nebo potrénovat své manuální dovednosti při každodenních činnostech pouze s pomocí jedné ruky. Jedním z nejočekávanějších bodů programu bylo setkání s populární youtuberskou dvojicí TVTwixx, která děti zaujala vyprávěním o bezpečnosti na internetu.</p>
+                    <h4></h4>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -510,3 +496,470 @@
     </div>
 
 </div>
+
+{% else %}
+
+  {{ title_prefix }}
+  {% if label %}
+    <h2 class="block-title">{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  <div class="block-inner">
+
+
+
+    <p class="text-align-center uprclas">&nbsp;</p>
+
+    <div id="references" class="references-top">
+      <h3 class="block-title">References</h3>
+
+      <p class="margin-helper text-align-center"></p>
+
+      <div class="references">
+
+        <div class="mobile-only">
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#mcsx1" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="MOL - Native PR" src="/sites/default/files/rf_cache/1.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx1">
+                <div class="well-med">
+                  <div class="inner-wl">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsx2" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Wustenrot - Native PR" src="/sites/default/files/rf_cache/2.png" />
+                  <div class="but"></div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx2">
+                <div class="well-med">
+                  <div class="inner-wl">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsx3" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Mondi - Native PR" src="/sites/default/files/rf_cache/4.png" />
+                  <div class="but"></div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx3">
+                <div class="well-med">
+                  <div class="inner-wl">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsxx4" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Saxo Bank - Native PR" src="/sites/default/files/rf_cache/6.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row b-b">
+            <div class="collapse" id="mcsx4">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#mcsx5" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="McDonalds - Native PR" src="/sites/default/files/rf_cache/9.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx5">
+                <div class="well-med">
+                  <div class="inner-wl">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsxx6" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Moneta - Native PR" src="/sites/default/files/rf_cache/10.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx6">
+                <div class="well-med">
+                  <div class="inner-wl">
+                    <h4></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsxx7" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Czech Airlines - Native PR" src="/sites/default/files/rf_cache/11.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx7">
+                <div class="well-med">
+                  <div class="inner-wl">
+                    <h4></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsxx8" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Siemens - Native PR" src="/sites/default/files/rf_cache/12.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="row b-b">
+            <div class="collapse" id="mcsx8">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#mcsxx9" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="LG - Native PR" src="/sites/default/files/rf_cache/19.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx9">
+                <div class="well-med">
+                  <div class="inner-wl">
+                    <h4></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a role="button" data-toggle="collapse" href="#mcsxx10" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Pfizer - Native PR" src="/sites/default/files/rf_cache/21.png" />
+                  <div class="but">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx10">
+                <div class="well-med">
+                  <div class="inner-wl">
+                    <h4></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <a role="button" data-toggle="collapse" href="#mcsxx11" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Tesco - Native PR" src="/sites/default/files/rf_cache/22.png" />
+                  <div class="but"> </div >
+                </div>
+              </div>
+            </a>
+
+            <div class="row b-b">
+              <div class="collapse" id="mcsx11">
+                <div class="well-med">
+                  <div class="inner-wl">
+                    <h4></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 spc">
+              <div class="inner">
+                ...and more than <br>
+                <strong>100</strong><br>
+                clients
+                &nbsp;
+                <div class="but">&nbsp;</div >
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="desktop-only">
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#csx1" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="MOL - Native PR" src="/sites/default/files/rf_cache/1.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csx2" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Wustenrot - Native PR" src="/sites/default/files/rf_cache/2.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csx3" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Mondi - Native PR" src="/sites/default/files/rf_cache/4.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx4" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Saxo Bank - Native PR" src="/sites/default/files/rf_cache/6.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row b-b">
+
+            <div class="collapse" id="csx1">
+              <div class="well-med">
+                <div class="inner-wl">
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx2">
+              <div class="well-med">
+                <div class="inner-wl">
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx3">
+              <div class="well-med">
+                <div class="inner-wl">
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx4">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#csx5" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="McDonalds - Native PR" src="/sites/default/files/rf_cache/9.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx6" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Moneta - Native PR" src="/sites/default/files/rf_cache/10.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx7" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Czech Airlines - Native PR" src="/sites/default/files/rf_cache/11.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx8" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Siemens - Native PR" src="/sites/default/files/rf_cache/12.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row b-b">
+
+            <div class="collapse" id="csx5">
+              <div class="well-med">
+                <div class="inner-wl">
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx6">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx7">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx8">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <a role="button" data-toggle="collapse" href="#csxx9" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="LG - Native PR" src="/sites/default/files/rf_cache/19.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx10" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Pfizer - Native PR" src="/sites/default/files/rf_cache/21.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <a role="button" data-toggle="collapse" href="#csxx11" aria-expanded="false" aria-controls="collapseExample">
+              <div class="col-sm-6 col-md-3">
+                <div class="inner"><img alt="Tesco - Native PR" src="/sites/default/files/rf_cache/22.png" />
+                  <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+                </div>
+              </div>
+            </a>
+
+            <div class="col-sm-6 col-md-3 spc">
+              <div class="inner">
+                ...and more than<br>
+                <strong>100</strong><br>
+                clients
+                &nbsp;
+                <div class="but" data-target="#csx2" data-toggle="collapse" aria-expanded="false">&nbsp;</div >
+              </div>
+            </div>
+          </div>
+
+          <div class="row b-b">
+
+            <div class="collapse" id="csx9">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx10">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="csx11">
+              <div class="well-med">
+                <div class="inner-wl">
+                  <h4></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endif %}

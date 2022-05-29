@@ -112,7 +112,7 @@ body {
 body {
     position: relative;
     background-color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 16px;
     color: #333;
@@ -9016,6 +9016,10 @@ body.tt-boxed #page-section.page-classic .page-section-inner.tt-wrap {
     padding-top: 3%;
 }
 
+body.path-aktuality #page-section.page-classic .page-section-inner.tt-wrap {
+  padding-top: 200px;
+}
+
 @media (max-width: 992px) {
     body.tt-boxed #page-section.page-classic .page-section-inner.tt-wrap {
         padding-top: 7%;
@@ -12822,7 +12826,7 @@ h4.label {color: #333 !important;}
 
 .nmbr {
     font-weight: bold;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     display: inline-block;
 }
 
@@ -12895,11 +12899,11 @@ h4.label {color: #333 !important;}
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .undtop {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .content_layout .col-md-12 {
@@ -12926,9 +12930,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border: 1px solid black;
     border-radius: 100px;
-    background: white;
+  text-align: center;
     margin-top: 30px;
 }
 
@@ -12938,7 +12941,7 @@ h1 {
     margin-right: auto;
     position: relative;
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 3rem;
     height: 45px;
 }
@@ -13041,10 +13044,23 @@ h1 {
 }
 
 .intro5 {
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-bottom: 4rem;
-  padding-top: 105px;
+
+}
+@media (max-width: 1220px) {
+  .brd {
+    padding: 0px;
+    color: #6a6d71;
+    transition: all 0.5s;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+  }
+  #logo {
+    left: 10px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 770px) {
   .brd {
@@ -13059,14 +13075,11 @@ h1 {
     left: 10px;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media (max-width: 550px) {
   .intro5 {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 3rem;
   }
   .brd {
     padding: 0px;
@@ -13136,23 +13149,66 @@ h1 {
   text-align: center;
 }
 
+.intro-image-resize img {
+  max-width: 500px;
+}
+
 @media (max-width: 1285px) {
   .scene {
-    height: 150px;
+    height: 100px;
+  }
+  .intro-image-resize img {
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .intro-image-resize img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-image-resize img {
+    max-width: 400px;
+  }
+  .mobile-overlay {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .scene {
+    height: 1px;
+    padding: 0rem;
+    margin: 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-image-resize img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .scene {
+    height: 1px;
+    padding: 0rem;
+    margin: 0rem;
   }
 }
 
 .card {
   width: 100%;
   height: 100%;
-  transition: transform 2s;
-  transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
+  margin-top: 5%;
 }
 
 .card.is-flipped {
-  transform: rotateY(360deg);
 }
 
 .card__face {
@@ -13174,5 +13230,13 @@ h1 {
 
 .card__face--back {
   background: transparent;
-  transform: rotateY(180deg);
+}
+
+.intro-button a {
+  margin-top: 30px;
+}
+
+.service h3 {
+  font-size: 16px;
+  display: inline;
 }

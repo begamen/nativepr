@@ -21,6 +21,8 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/google_analytics": "^3.1",
+        "drupal/imageapi_optimize": "^4.0",
+        "drupal/imageapi_optimize_tinypng": "^1.1@beta",
         "drupal/lang_dropdown": "^2.0@beta",
         "drupal/languageicons": "^1.0@beta",
         "drupal/metatag": "^1.16",

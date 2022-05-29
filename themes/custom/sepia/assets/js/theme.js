@@ -846,25 +846,24 @@
     });
 
     // INTRO
-  if ( window.location.pathname == '/' ){
-    var card = document.querySelector('.card');
-    card.addEventListener( 'click', function() {
-      card.classList.toggle('is-flipped');
-    });
+ // if ( window.location.pathname == '/cs' || window.location.pathname == '/en' ){
+ //   var card = document.querySelector('.card');
+ //   card.addEventListener( 'click', function() {
+  //    card.classList.toggle('is-flipped');
+ //   });
 
-    setTimeout(function() {$('.card').click();}, 2000);
+  //  setTimeout(function() {$('.card').click();}, 2000);
 
-    card.addEventListener( 'mouseover', function() {
-      card.classList.toggle('is-flipped');
-    });
-  }
+  //  card.addEventListener( 'mouseover', function() {
+  //    card.classList.toggle('is-flipped');
+  //  });
+ // }
 
 
   if (window.location.href.indexOf("aktuality") > -1) {
     $('.tt-menu-nav li a').each(function(){
       var href = $(this).attr("href"); // Get current url
       var newUrl = href; // Create new url
-      console.log(newUrl);
       $(this).prop("href", window.location.origin + newUrl); // Set herf value
     });
   }

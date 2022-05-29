@@ -1,33 +1,61 @@
-<section id="intro" class="intro5">
-  <div class="scene scene--card">
-    <div class="card">
-      <div class="card__face card__face--front"><h1 class="text-align-center">Záleží na úhlu pohledu</h1></div>
-      <div class="card__face card__face--back"></div>
+
+{% if language == 'cs' %}
+  <section id="intro" class="intro5">
+    <div class="row">
+      <div class="col-sm-6 col-md-4"><img alt="Native PR agentura" src="/sites/default/files/rf/main.jpg" /><br />
+      </div>
+      <div class="col-sm-6 col-md-8">
+        <div class="mobile-overlay">
+          <div class="scene scene--card">
+            <div class="card">
+              <div class="card__face card__face--front">
+              </div>
+              <div class="card__face card__face--back"></div>
+            </div>
+          </div>
+          <div class="text-for-intro">
+            <h1 class="text-align-center">Pomáháme růst firmám a lidem.</h1>
+            <h2 class="undtop text-align-center">Jsme PR a marketingová agentura. Věříme v efektivní komunikaci, která jde přímou cestou rovnou za vytyčenými cíli. Na základě vašich potřeb navrhneme strategický přístup i účinné komunikační řešení a zajistíme jeho perfektní realizaci.</h2>
+          </div>
+
+        </div>
+        <div class="intro-button text-center">
+          <a href="#contact" class="btn-default btn btn-primary cta">Napište nám</a>
+        </div>
+        <p>&nbsp;</p>
+
+      </div>
     </div>
-  </div>
+  </section>
+{% else %}
+  <section id="intro" class="intro5">
+    <div class="row">
+      <div class="col-sm-6 col-md-4"><img alt="Native PR agency" src="/sites/default/files/rf/main.jpg" /><br />
+      </div>
+      <div class="col-sm-6 col-md-8">
+        <div class="mobile-overlay">
+          <div class="scene scene--card">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="intro-image-resize">
+                  <img alt="Native PR agency logo" src="/sites/default/files/intro_image.png" />
+                </div>
+              </div>
+              <div class="card__face card__face--back"></div>
+            </div>
+          </div>
+          <div class="text-for-intro">
+            <h1 class="text-align-center">Reality can be seen from different angles</h1>
+            <h2 class="undtop text-align-center">We'll show you the right one.</h2>
+          </div>
 
-  <p class="undtop text-align-center">Jsme tým zkušených PR profesionálů.</p>
+        </div>
+        <div class="intro-button text-center">
+          <a href="#contact" class="btn-default btn btn-primary cta">Write us</a>
+        </div>
+        <p>&nbsp;</p>
 
-  <div class="icons row">
-    <div class="col-sm-6 col-md-3 brd"><img src="/sites/default/files/rf/calc-icon.png" /><br />
-      <strong>25 </strong><br />
-      let na trhu</div>
-
-    <div class="col-sm-6 col-md-3 brd"><img src="/sites/default/files/rf/person-icon.png" /><br />
-      <strong>APRA </strong><br />
-      zakládající člen</div>
-
-    <div class="col-sm-6 col-md-3 brd"><img src="/sites/default/files/rf/dart-icon.png" /><br />
-      <strong>796 </strong><br />
-      úspěšných projektů</div>
-
-    <div class="col-sm-6 col-md-3 brd"><img src="/sites/default/files/rf/ribbon-icon.png" /><br />
-      <strong>ICCO CMS </strong><br />
-      certifikace</div>
-  </div>
-
-  <p>&nbsp;</p>
-  <div class="margin-top-30 text-center">
-    <a href="#contact" class="btn-default btn btn-primary cta">Napište nám</a>
-  </div>
-</section>
+      </div>
+    </div>
+  </section>
+{% endif %}
